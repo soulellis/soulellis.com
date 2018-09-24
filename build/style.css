@@ -3,7 +3,7 @@
 	/* soulellis.com */
 
 @font-face {
-  font-family: "ArialNarrow";
+  font-family: "Arial Narrow";
   src: url("/build/font/ArialNarrow.ttf") format("truetype"),
        url("/fonts/OpenSans-Regular-webfont.woff") format("woff");
 }
@@ -12,7 +12,7 @@ html, body{
 	padding: 0px;
 	margin: 0px;
 	font-size: 15px;
-	font-family: ArialNarrow, "ArialNarrow", sansserif;
+	font-family: arialnarrow, "arial narrow", sans-serif;
 	background-color: #ffffff;
 	box-sizing: border-box;
 	-webkit-box-sizing: border-box;
