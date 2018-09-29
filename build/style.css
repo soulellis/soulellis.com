@@ -4,7 +4,7 @@
 
 @font-face {
   font-family: "ArialNarrow";
-  src: url("/build/font/ArialNarrow.woff") format("truetype"),
+  src: url("/build/font/ArialNarrow.woff") format("woff"),
 }
 
 html, body{
