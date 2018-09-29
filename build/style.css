@@ -4,7 +4,10 @@
 
 @font-face {
   font-family: "ArialNarrow";
-  src: url("/build/font/ArialNarrow.woff") format("woff"),
+  src: url('/build/font/ArialNarrow.woff') format('woff'),
+  src: url('/build/font/ArialNarrow.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 
 html, body{
