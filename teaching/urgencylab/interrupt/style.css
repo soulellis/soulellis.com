@@ -1,0 +1,115 @@
+<!DOCTYPE css>
+
+	/* soulellis.com */
+
+@font-face {
+  font-family: "ArialNarrow";
+  src: url('/build/font/ArialNarrow.woff') format('woff'),
+  src: url('/build/font/ArialNarrow.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html, body{
+	padding: 0px;
+	margin: 0px;
+	font-size: 15px;
+	font-family: ArialNarrow, "ArialNarrow", sans-serif;
+	background-color: #ffffff;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+
+}
+
+body{
+	min-height: 100vh;
+	padding-bottom: 4rem;
+	padding-top: 2rem;
+	padding-left: 2rem;
+	padding-right: 2rem;
+}
+
+div{
+	padding: 0px;
+	margin: 0px;
+	line-height: 6rem;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-hyphens: auto;
+  	-ms-hyphens: auto;
+  	hyphenate-limit-chars: auto 3;
+  	hyphenate-limit-lines: 3;
+  	hyphens: auto;
+}
+
+
+
+a{
+	color: red;
+	text-decoration: none;
+	border: 0px;
+
+}
+
+a:link {
+	color: red;
+	background-color: blue;
+	text-decoration: none;
+	border: 0px;
+}
+
+a:hover {
+	color: yellow;
+	background-color: red;
+	border: 0px;
+} 
+
+a:visited {
+	color: red;
+	text-decoration: none;
+	border: 0px;
+}
+
+a:hover {
+	color: yellow;
+	border: 0px;
+}
+
+h2{
+	display: block;
+	position: relative;
+	font-size: 6rem;
+	color: #000000;
+	font-weight: normal;
+	text-align: left;
+	padding: 0;
+	margin: 0;
+}
+
+h3{
+	display: block;
+	position: relative;
+	font-size: 4rem;
+	line-height: 4.5rem;
+	color: #000000;
+	font-weight: normal;
+	text-align: left;
+	padding: 0;
+	margin: 0;
+}
+
+h4{
+	display: block;
+	position: relative;
+	font-size: 1rem;
+	line-height: 1.5rem;
+	color: #000000;
+	font-weight: normal;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+
+
