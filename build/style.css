@@ -4,8 +4,8 @@
 
 @font-face {
   font-family: "ArialNarrow";
-  src: url('/build/font/ArialNarrow.woff') format('woff');
-  src: url('/build/font/ArialNarrow.ttf') format('truetype');
+  src: url("/build/font/ArialNarrow.woff") format("woff");
+  src: url("/build/font/ArialNarrow.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -14,7 +14,7 @@ html, body{
 	padding: 0px;
 	margin: 0px;
 	font-size: 15px;
-	font-family: 'ArialNarrow', ArialNarrow, Arial, sans-serif;
+	font-family: "ArialNarrow", ArialNarrow, Arial, sans-serif;
 	max-width: 1750px;
 	background-color: #ffffff;
 	box-sizing: border-box;
