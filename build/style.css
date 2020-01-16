@@ -6,8 +6,9 @@
   font-family: "ArialNarrow";
 	src: local("ArialNarrow");
 	src: local("Arial-Narrow");
-   	src: url("/build/font/ArialNarrow.ttf") format("truetype");
+  	src: url("/build/font/ArialNarrow.woff2") format("woff2");
   	src: url("/build/font/ArialNarrow.woff") format("woff");
+   	src: url("/build/font/ArialNarrow.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
