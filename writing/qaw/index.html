@@ -53,8 +53,11 @@ html, body{
   position: absolute;
   top: 50%;
   width: auto;
-  padding: 16px;
-  margin-top: -22px;
+  padding-left: 300px;
+  padding-bottom: 300px;
+  padding-top: 300px;
+  padding-right: 16px;
+  margin-top: -300px;
   color: white;
   font-weight: bold;
   font-size: 18px;
@@ -71,7 +74,7 @@ html, body{
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+  background-color: rgba(0,0,0,0);
 }
 
 /* Caption text */
@@ -960,8 +963,8 @@ body {
 
 
 
-<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-<a class="next" onclick="plusSlides(1)">&#10095;</a>
+<a class="prev" onclick="plusSlides(-1)">&nbsp;</a>
+<a class="next" onclick="plusSlides(1)">&nbsp;</a>
 
 </div>
 <br>
@@ -985,8 +988,17 @@ body {
 </div>
 
 
-
-
+<script type="text/javascript">
+  document.onkeydown = function(evt) {
+    evt = evt || window.event;
+    if (evt.keyCode == 37) {
+        plusSlides(-1);
+    }
+    if (evt.keyCode == 39) {
+        plusSlides(+1);
+    }
+};
+</script>
 
 
 <script>
@@ -1005,7 +1017,8 @@ function showSlides(n) {
   var i;
   var slides = document.getElementsByClassName("mySlides");
   var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}    
+
+  if (n > slides.length) {slideIndex = 1} 
   if (n < 1) {slideIndex = slides.length}
   for (i = 0; i < slides.length; i++) {
       slides[i].style.display = "none";  
@@ -1017,6 +1030,9 @@ function showSlides(n) {
   dots[slideIndex-1].className += "";
 }
 </script>
+
+
+
 
 </body>
 </html>
