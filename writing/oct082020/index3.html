@@ -45,7 +45,10 @@ html, body{
   background-color: black;
 }
 
-
+img {
+  vertical-align: middle;
+  width: 70%
+}
 
 /*---------- https://www.w3schools.com/howto/howto_js_slideshow.asp------->>
 
@@ -56,6 +59,10 @@ html, body{
   padding-bottom: 0;
 }
 
+.footer {
+  position: fixed;
+  bottom: 10px;
+}
 
 /* Next & previous buttons */
 .prev, .next {
@@ -142,10 +149,7 @@ html, body{
   to {opacity: 1}
 }
 
-img {
-  vertical-align: middle;
-  width: 65%
-}
+
 
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 1000px) {
@@ -178,15 +182,14 @@ img {
 <br>
 <div style="text-align:center">
   <span class="dot" onclick="currentSlide(1)"></span> 
-  <span class="dot" onclick="currentSlide(10)"></span> 
-  <span class="dot" onclick="currentSlide(20)"></span> 
-  <span class="dot" onclick="currentSlide(30)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
 </div>
 <div class="slideshow-container">
 
 
 <div class="mySlides fade">
-    <div class="numbertext">1 / 136</div>
+    <div class="numbertext">1 / 3</div>
   <img src="24.jpeg" align="left">
     <div class="myText" style="width: auto;" align="right">
           Acts of publishing are especially potent during crisis; they mark a rapidly changing timeline with recorded evidence of language, information, and narrative. Urgent acts of “making public” can mobilize community and inspire action in real time. In crisis, we see independent artists, activists, community organizers, scholars, and ordinary consumers directly engaging with the most sophisticated modes of publishing to record and communicate in real time, while those in positions of hegemonic power use those same tools to engineer and control our defining narratives. 
@@ -195,14 +198,14 @@ img {
 
 
 <div class="mySlides fade">
-    <div class="numbertext">2 / 136</div>
-  <img src="33.jpeg" align="left">
+    <div class="numbertext">2 / 3</div>
+  <img src="104.jpeg" align="left">
     <div class="myText" style="width: auto;" align="right">
           From Facebook posts to presidential tweets to gaming livestreams to print-on-demand journals to mutual aid zines, stories are constructed and experiences shared; how and why they reach us and why we’re compelled to trust them (or not) is crucial to any understanding of how publishing operates right now.
         </div></div>
 
 <div class="mySlides fade">
-    <div class="numbertext">3 / 136</div>
+    <div class="numbertext">3 / 3</div>
   <img src="50.jpeg" align="left">
     <div class="myText" style="width: auto;" align="right">
           Publics consume and amplify, and sometimes resist and refuse, those defining narratives; publishing is political. It has the power to compel, persuade, inform, attract, confuse, script, manipulate, and mobilize. And it’s here that we can locate the enormous paradox of contemporary publishing: its potential to oppress as well as to empower. How does hegemonic power shape today’s expansive, contemporary field of “making public?” As one of the principal tools of the colonizer, publishing has been used to dominate and exert control for centuries, with treaties, tracts, proclamations, archives, laws, history textbooks, and all of the ways in which knowledge is produced and retained through acts of printing, publishing, and archiving. We see evidence of this today in new (and returning) forms of propaganda and disinformation within the global rise of authoritarian rule, and in the extractive and exploitative practices of neoliberal hyper-capitalism.
@@ -217,6 +220,8 @@ img {
 
 
 </div>
+<br>
+ <div class="footer">Background image: <a href="https://sloanleo.com/queerbook" target="_build">Sloan Leo</a></div>
 
 
 
