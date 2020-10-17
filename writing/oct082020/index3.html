@@ -67,14 +67,14 @@ img {
 /* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
-  position: absolute;
-  top: 50%;
+  position: auto;
+  top: 0;
   width: auto;
   padding-left: 150px;
   padding-bottom: 150px;
-  padding-top: 150px;
+  padding-top: auto;
   padding-right: 16px;
-  margin-top: -150px;
+  margin-top: auto;
   color: white;
   font-weight: bold;
   font-size: 18px;
@@ -179,12 +179,15 @@ img {
 <body>
 
     <div class="black"><a href="../../index.html" class="black2">soulellis.com</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://queer.archive.work" class="black2">queer.archive.work</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="index2.html" class="black2">grid</a> <a href="https://www.dropbox.com/s/z4k4pu0cvsxv2x2/QAW-publishing_2020_3.pdf?dl=0" target="_build" style="float: right" class="black2">download PDF</a> </div>
+
 <br>
+
 <div style="text-align:center">
   <span class="dot" onclick="currentSlide(1)"></span> 
   <span class="dot" onclick="currentSlide(2)"></span> 
   <span class="dot" onclick="currentSlide(3)"></span> 
 </div>
+
 <div class="slideshow-container">
 
 
@@ -229,11 +232,25 @@ img {
 <script type="text/javascript">
   document.onkeydown = function(evt) {
     evt = evt || window.event;
+/* left arrow moves slide back */
     if (evt.keyCode == 37) {
         plusSlides(-1);
     }
+/* right arrow moves slide forward */
     if (evt.keyCode == 39) {
         plusSlides(+1);
+    }
+/* space bar moves slide forward */
+    if (evt.keyCode == 32) {
+        plusSlides(+1);
+    }
+/* up arrow goes to first slide */
+    if (evt.keyCode == 38) {
+        currentSlide(1);
+    }
+/* down arrow goes to last slide */
+    if (evt.keyCode == 40) {
+        currentSlide(3);
     }
 };
 </script>
