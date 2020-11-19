@@ -51,7 +51,7 @@ html, body{
 
 .footer {
   position: fixed;
-  bottom: 0;
+  bottom: 10px;
 }
 
 
@@ -108,10 +108,10 @@ html, body{
 /* The dots/bullets/indicators */
 .dot {
   cursor: pointer;
-  height: 10px;
-  width: 10px;
-  margin: 0 2px;
-  background-color: #222222;
+  height: 9px;
+  width: 9px;
+  margin-bottom: 10px;
+  background-color: white;
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
@@ -162,8 +162,13 @@ body {
 </head>
 <body>
 
-    <div class="black"><a href="../../index.html" class="black2">soulellis.com</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://queer.archive.work" class="black2">queer.archive.work</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="index2.html" class="black2">grid</a> <a href="https://www.dropbox.com/s/7d3mjqvqu4esvn1/ArtCenter_Nov19_2020.pdf?dl=0" target="_build" style="float: right" class="black2">download PDF</a> </div>
+    <div class="black"><a href="../../index.html" class="black2">soulellis.com</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://queer.archive.work" class="black2">queer.archive.work</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="index3.html" class="black2">[slides with notes]</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="index.html" class="black2">[slides without notes]</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="index2.html" class="black2">[grid]</a> <a href="https://www.dropbox.com/s/7d3mjqvqu4esvn1/ArtCenter_Nov19_2020.pdf?dl=0" target="_build" style="float: right" class="black2">download PDF</a> </div>
 <br>
+<div style="text-align:left">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  
+</div>
+
 <div class="slideshow-container" style="max-height: auto">
 
 
@@ -1019,28 +1024,8 @@ body {
 <a class="next" onclick="plusSlides(1)">></a>
 
 </div>
-
-
-<div style="text-align:center">
-  <span class="dot" onclick="currentSlide(1)"></span> 
-  <span class="dot" onclick="currentSlide(10)"></span> 
-  <span class="dot" onclick="currentSlide(20)"></span> 
-  <span class="dot" onclick="currentSlide(30)"></span> 
-  <span class="dot" onclick="currentSlide(40)"></span> 
-  <span class="dot" onclick="currentSlide(50)"></span> 
-  <span class="dot" onclick="currentSlide(60)"></span> 
-  <span class="dot" onclick="currentSlide(70)"></span> 
-  <span class="dot" onclick="currentSlide(80)"></span> 
-  <span class="dot" onclick="currentSlide(90)"></span> 
-  <span class="dot" onclick="currentSlide(100)"></span> 
-  <span class="dot" onclick="currentSlide(110)"></span> 
-  <span class="dot" onclick="currentSlide(120)"></span> 
-  <span class="dot" onclick="currentSlide(130)"></span> 
-  <span class="dot" onclick="currentSlide(140)"></span> 
-</div>
-
 <br>
- <div>Background image: <a href="https://sloanleo.com/queerbook" target="_build">Sloan Leo</a></div>
+ <div class="footer">Background image: <a href="https://sloanleo.com/queerbook" target="_build">Sloan Leo</a></div>
 
 
 
