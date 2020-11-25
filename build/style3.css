@@ -63,7 +63,6 @@ nav ul {
 @media screen and (max-width: 800px) {
 	body {
 		display: block;
-		background-attachment: scroll;
 	}
 	nav {
 		text-align: center;
@@ -71,9 +70,11 @@ nav ul {
 	nav ul {
 		width: 80vw;
 		margin: auto;
+		margin-top: 35vw;
 	}
 	nav ul li a.current {
-  background: none;
+	  background-color: none;
+	  background: none;
 }
 }
 
@@ -148,6 +149,65 @@ p {
 	border: 0px;	
 }
 
+.plum {
+	background-color: plum;
+	color: red;
+	border: 0px;	
+}
+
+.darkseagreen {
+	background-color: darkseagreen;
+	color: brown;
+	border: 0px;	
+}
+
+.goldenrod {
+	background-color: goldenrod;
+	color: darkslategray;
+	border: 0px;	
+}
+
+.mistyrose {
+	background-color: mistyrose;
+	color: dimgray;
+	border: 0px;	
+}
+
+.darkturquoise {
+	background-color: darkturquoise;
+	color: orangered;
+	border: 0px;	
+}
+
+.hotpink {
+	background-color: hotpink;
+	color: indigo;
+	border: 0px;	
+}
+
+.lightsalmon {
+	background-color: lightsalmon;
+	color: firebrick;
+	border: 0px;	
+}
+
+.thistle {
+	background-color: thistle;
+	color: darkgreen;
+	border: 0px;	
+}
+
+.aquamarine {
+	background-color: aquamarine;
+	color: maroon;
+	border: 0px;	
+}
+
+.gold {
+	background-color: gold;
+	color: darkviolet;
+	border: 0px;	
+}
 
 
 
