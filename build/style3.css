@@ -151,11 +151,25 @@ a:hover {
 }
 
 h2 {
-	font-size: 7vw;
-	line-height: 8vw;
+	font-size: 7rem;
+	line-height: 8rem;
 	font-weight: normal;
 	text-align: center;
 	color: aquamarine;
+}
+
+@media screen and (min-width: 1200px) {
+	h2 {
+	font-size: 6rem;	
+	line-height: 7rem;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	h2 {
+	font-size: 4rem;	
+	line-height: 5rem;
+	}
 }
 
 h3 {
@@ -166,6 +180,20 @@ h3 {
 	color: aquamarine;
 }
 
+@media screen and (min-width: 1200px) {
+	h3 {
+	font-size: 2rem;	
+	line-height: 2.5rem;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	h3 {
+	font-size: 1rem;	
+	line-height: 1.5rem;
+	}
+}
+
 
 p {
 	font-size: 3rem;
@@ -173,6 +201,21 @@ p {
 	max-width: 1400px;
 	text-align: center;
 }
+
+@media screen and (min-width: 1200px) {
+	p {
+	font-size: 2.5rem;	
+	line-height: 3rem;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	p {
+	font-size: 2rem;	
+	line-height: 2.5rem;
+	}
+}
+
 
 .white {
 	background-color: white;
