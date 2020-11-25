@@ -39,6 +39,7 @@ body {
   /* overflow-x: hidden; */
 }
 
+
 img {
 	width: 100%;
 	margin-left: auto;
@@ -159,7 +160,7 @@ h2 {
 
 h3 {
 	font-size: 2vw;
-	line-height: 3vw;
+	line-height: 2.5vw;
 	font-weight: normal;
 	text-align: center;
 	color: aquamarine;
@@ -167,8 +168,8 @@ h3 {
 
 
 p {
-	font-size: 3vw;
-	line-height: 3.75vw;
+	font-size: 3rem;
+	line-height: 3.75rem;
 	max-width: 1400px;
 	text-align: center;
 }
