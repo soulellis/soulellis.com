@@ -1,0 +1,144 @@
+<!DOCTYPE css>
+
+	/* soulellis.com */
+
+
+* {
+-moz-hyphens:none;
+-ms-hyphens:none;
+-webkit-hyphens: none;
+hyphens:none;
+}
+
+#site { overflow-x: hidden; }
+
+@font-face {
+  font-family: "Arial Narrow";
+	src: local("Arial Narrow");
+	src: local("ArialNarrow");
+	src: local("Arial-Narrow");
+  	src: url("/build/font/ArialNarrow.woff2") format("woff2");
+  	src: url("/build/font/ArialNarrow.woff") format("woff");
+   	src: url("/build/font/ArialNarrow.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  margin-right: 5vw;
+  margin-left: 5vw;
+  display: grid;
+  grid-template-columns: min-content 1fr;
+  
+  /* this breaks position sticky in Firefox */
+  /* overflow-x: hidden; */
+}
+
+header {
+  grid-column: 1 / 3;
+  background: none;
+  margin-right: 0;
+  color: white;
+  padding: 0rem;
+  text-align: center;
+}
+nav {
+  white-space: wrap;
+  background: none;
+  font-size: 1.5vh;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 15vw;
+}
+
+/* Only stick if you can fit */
+@media (min-height: 500px) {
+  nav ul {
+    position: sticky;
+    top: 0;
+  }
+}
+@media (max-width: 800px) {
+  nav ul {
+    position: relative;
+    top: 0;
+  }
+}
+
+
+nav ul li a {
+  display: block;
+  padding: .2rem .5rem;
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li a.current {
+  background: black;
+}
+
+nav ul li a:hover {
+  background: black;
+  color: white;
+}
+
+main {
+  padding-bottom: none;
+}
+section {
+  padding: none;
+  margin: none;
+}
+footer {
+  grid-column: 1 / 2;
+  background: none;
+  padding: none;
+}
+
+
+h5 {
+	font-size: 7vw;
+	line-height: 8vw;
+	font-weight: normal;
+	text-align: center;
+	color: white;
+}
+
+p {
+	font-size: 3vw;
+	line-height: 3.75vw;
+	max-width: 1400px;
+}
+
+.white {
+	background-color: white;
+	color: black;
+	border: 0px;	
+}
+
+.black {
+	background-color: black;
+	color: white;
+	border: 0px;	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
