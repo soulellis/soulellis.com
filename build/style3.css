@@ -151,16 +151,11 @@ a:hover {
 }
 
 h2 {
-	font-size: 8rem;
-	line-height: 9rem;
+	font-size: 7.5rem;
+	line-height: 8.5rem;
 	font-weight: normal;
 	text-align: center;
 	color: aquamarine;
-	-moz-hyphens:auto;
-	-ms-hyphens:auto;
-	-webkit-hyphens: auto;
-	hyphens:auto;
-
 }
 
 @media screen and (max-width: 1200px) {
