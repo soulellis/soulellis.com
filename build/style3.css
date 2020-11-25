@@ -156,6 +156,11 @@ h2 {
 	font-weight: normal;
 	text-align: center;
 	color: aquamarine;
+	-moz-hyphens:auto;
+	-ms-hyphens:auto;
+	-webkit-hyphens: auto;
+	hyphens:auto;
+
 }
 
 @media screen and (max-width: 1200px) {
