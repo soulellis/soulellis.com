@@ -39,6 +39,13 @@ body {
   /* overflow-x: hidden; */
 }
 
+img {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
 header {
   grid-column: 1 / 3;
   background: none;
@@ -47,35 +54,43 @@ header {
   padding: 0rem;
   text-align: center;
 }
+
 nav {
   white-space: wrap;
-  background: none;
-  font-size: 1.5vh;
+  background-color: none;
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
+
 nav ul {
   list-style: none;
   margin: 0;
   padding: 0;
   width: 15vw;
+  min-width: 200px;
 }
 
 
-@media screen and (max-width: 800px) {
+
+
+@media screen and (max-width: 950px) {
 	body {
 		display: block;
+		background-color: black
 	}
+
 	nav {
 		text-align: center;
 	}
 	nav ul {
 		width: 80vw;
 		margin: auto;
-		margin-top: 35vw;
+		margin-top: auto;
 	}
 	nav ul li a.current {
 	  background-color: none;
 	  background: none;
-}
+	}
 }
 
 /* Only stick if you can fit */
@@ -85,7 +100,7 @@ nav ul {
     top: 0;
   }
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 950px) {
   nav ul {
     position: relative;
     top: 0;
@@ -96,45 +111,66 @@ nav ul {
 nav ul li a {
   display: block;
   padding: .2rem .5rem;
-  color: white;
+  color: aquamarine;
   text-decoration: none;
 }
 
 nav ul li a.current {
-  background: black;
+  background: aquamarine;
+  color: black;
 }
 
 nav ul li a:hover {
-  background: black;
-  color: white;
+  background: aquamarine;
+  color: black;
 }
 
 main {
   padding-bottom: none;
 }
+
 section {
   padding: none;
   margin: none;
 }
+
 footer {
   grid-column: 1 / 2;
   background: none;
   padding: none;
 }
 
+a {
+	color: aquamarine;
+}
 
-h5 {
+a:hover {
+	background-color: aquamarine;
+	color: black;
+}
+
+h2 {
 	font-size: 7vw;
 	line-height: 8vw;
 	font-weight: normal;
 	text-align: center;
-	color: white;
+	color: aquamarine;
 }
+
+h3 {
+	font-size: 2vw;
+	line-height: 3vw;
+	font-weight: normal;
+	text-align: center;
+	color: aquamarine;
+}
+
 
 p {
 	font-size: 3vw;
 	line-height: 3.75vw;
 	max-width: 1400px;
+	text-align: center;
 }
 
 .white {
@@ -198,8 +234,8 @@ p {
 }
 
 .aquamarine {
-	background-color: aquamarine;
-	color: maroon;
+	background-color: black;
+	color: aquamarine;
 	border: 0px;	
 }
 
