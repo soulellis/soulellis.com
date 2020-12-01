@@ -43,84 +43,6 @@ background-attachment: fixed;
 
 }
 
-/* override styles when printing */
-@media print {
-	body {
-		margin: 4em !important;
-		color: black !important;
-		background-color: white !important;
-		display: block !important;
-	    break-inside: avoid;
-		page-break-inside: avoid;
-		width: 75% !important;
-	}
-	img {
-		max-width: 50em !important;
-	  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-	  filter: grayscale(100%);
-	  margin-left: 0 !important;
-	  margin-right: auto !important;
-	  margin-top: 2em !important;
-	    break-inside: avoid;
-		page-break-inside: avoid;
-	}
-	img#titleimage {
-		display: none !important;
-	}
-	h2 {
-		font-size: 54px !important;
-		line-height: 58px !important;
-		color: black !important;
-		text-align: left !important;
-		max-width: 540px !important;
-	    break-inside: avoid;
-		page-break-inside: avoid;
-	}
-	h3 {
-		font-size: 14px !important;
-		line-height: 16px  !important;
-		color: black !important;
-		text-align: left !important;
-		max-width: 420px !important;
-	    break-inside: avoid;
-		page-break-inside: avoid;
-		margin-bottom: 2em !important;
-	}
-	p {
-		font-size: 18px !important;
-		line-height: 20px  !important;
-		color: black !important;
-		text-align: left !important;
-		max-width: 540px !important;
-	    break-inside: avoid !important;
-		page-break-inside: avoid !important;
-	}
-
-	section {
-		page-break-after: always !important;
-	}
-
-	header {
-		page-break-after: always !important;
-	}	
-
-	a {
-		color: black !important;
-	}
-
-	.aquamarine {
-		color: black;
-		font-size: 3em;
-	}
-	li {
-		color: black !important;
-	}
-
-	.titleimage {
-		display: none;
-	}
-}
-
 </style>
 </head>
 
@@ -143,7 +65,7 @@ A NARRATIVE SYLLABUS IN 19 PARTS BY <a href="https://soulellis.com" target="_bla
 <br>
 <br>
 <br>
-<img id="titleimage" src="9d.png" style="max-width: 85%">
+<img src="9d.png" style="max-width: 85%">
 <br>
   </h2>
 </header>
