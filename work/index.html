@@ -21,28 +21,35 @@
   <meta property="og:image" content="https://raw.githubusercontent.com/soulellis/queer.archive.work/master/about/about1.jpg" />
   <meta property="og:url" content="https://soulellis.com/index.html" />
   <meta property="og:type" content="website" />
+
+	<script  type="text/javascript">
+		function changeImg(imgNumber)	{
+			var myImages = ["../images/image1.jpg", "../images/image2.jpg", "../images/image3.jpg", "../images/image4.jpg", "../images/image5.jpg", "../images/image6.jpg", "../images/image7.jpg", "../images/image8.jpg", "../images/image9.jpg", "../images/image10.jpg"]; 
+			var imgShown = document.body.style.backgroundImage;
+			var newImgNumber =Math.floor(Math.random()*myImages.length);
+			document.body.style.backgroundImage = 'url('+myImages[newImgNumber]+')';
+		}
+		window.onload=changeImg;
+	</script>
+
 	<style>
 
-body {
-  background-image: url('QAW2_install5.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: top;
-  background-size: cover;
-  transform: scale(1.0, 1.0);
 
-}
+		.bg {background-position: top; background-size: cover; background-attachment:fixed; background-repeat: no-repeat;}
 
 @media only screen and (max-width: 768px){
-   background-size: 100% 100vh;
+   background-size 100% 100vh;
+   }
 }
 
-body {background-color: dimgrey}   
+body {background-color: black}   
 
 
 </style>
 </head>
-<body>
+
+
+<body class="bg">
 
 
 
