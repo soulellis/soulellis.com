@@ -3,7 +3,7 @@
 }
 
 body {
-    background-image: url('assets/test-image1.jpg');
+  /*  background-image: url('assets/test-image1.jpg');*/
     background-position: top;
     background-position-y: -200px;
     background-color: #FFA3F0;
@@ -21,10 +21,23 @@ padding-top:5px;
 padding-bottom:5px;
 padding-left:5px;
 padding-right:10px;
-width: auto;
+width: 75%;
 color: #000000;
 background-color: #FFA3F0;
 font-size: 20px;
+text-align: left;
+}
+
+p2 {
+margin:0px;
+padding-top:5px;
+padding-bottom:5px;
+padding-left:5px;
+padding-right:10px;
+width: auto;
+color: #000000;
+background-color: #FFA3F0;
+font-size: 12px;
 text-align: left;
 }
 
@@ -102,6 +115,22 @@ text-align: left;
   text-align: left;
   outline: none;
   font-size: 20px;
+}
+
+.footer {
+  position: fixed;
+  width: auto;
+  z-index: 10;
+}
+
+.footer-left {
+  bottom: 0%;
+  left: 10px;
+}
+
+.footer-right {
+  bottom: 0%;
+  right: 10px;
 }
 
 
