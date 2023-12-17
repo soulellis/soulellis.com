@@ -1,0 +1,336 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Paul Soulellis</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</head>
+<body>
+<!-- 
+  <header>
+        <h1>Inheritance?</h1>
+        <div class="middle">
+          <h2>This website is an ongoing archive of thesis research by me <a href="https://emilybluedorn.com/" target="_blank">(Emily Bluedorn)</a> conducted at RISD in the 2023/2024 school year. My research centers around _____</h2>
+          <br>
+         <h2>Reach out to me at emilyellenbluedorn@gmail.com or <a href="https://www.instagram.com/emilyebluedesign/" target="_blank">@emilyebluedesign</a></h2>
+        </div>
+  </header> -->
+
+
+<!-- toggle tab links -->
+<div class="tab">
+  <button class="tablinks active" onclick="openCity(event, 'Milan')">Paul Soulellis</button>
+  <button class="tablinks" onclick="openCity(event, 'London')">Work</button>
+  <button class="tablinks" onclick="openCity(event, 'Paris')">Writing</button>
+  <button class="tablinks" onclick="openCity(event, 'Providence')">About</button>
+</div>
+
+<div id="Milan" class="tabcontent" style="display:block">
+
+</div>
+
+
+  
+
+
+<!-- Tab content WITH COLLAPSIBLES -->
+<div id="London" class="tabcontent">
+
+  <!-- need to put the filterable items here -->
+
+
+        <div id="references">
+
+          <!-- filterable information! -->
+          <div id="myBtnContainer">
+           
+
+
+
+
+            </div>
+          <!-- filterable information! -->
+
+            
+            
+            <!-- The filterable elements. Note that some have multiple class names (this can be used if they belong to multiple categories) -->
+            <div class="popups">
+
+              <div class="filterDiv craft show" id="entry 01">
+                  <a href="#popup1">
+                      <img src="assets/test-image1.jpg" width="100%">
+                      <div class="projecttext">
+                          <div class="title">Project A</div>
+                          <div class="maker">Year</div>
+                      </div>
+                  </a>
+              </div>
+
+              <div class="filterDiv mythology show" id="entry 02">
+                <a href="#popup2">
+                  <img src="assets/test-image2.jpg" width="100%">
+                  <div class="projecttext">
+                      <div class="title">Project B</div>
+                      <div class="maker">Year</div>
+                  </div>
+                </a>
+              </div>
+
+            </div>
+
+            <!-- Attempt at Pop-Up for each entry -->
+
+
+            <div id="popup1" class="popup-container">
+              <div class="popup-content">
+                  <a href="#" class="close">&#x2715;</a>
+
+                  <div class="titleof">
+                    <h1>Project A</h1> 
+                    <h2>Year</h2>
+                  </div>
+
+                  <img src="assets/test-image1.jpg" width="100%">
+
+
+                  <h3>Project A TBD.</h3>
+
+                  <div class="linktoproject"><a href="https://whitney.org/collection/works/7436" target="_blank">
+                    Learn more about this project.
+                  </a></div>
+                  <div class="linktoproject"><a href="https://scholarworks.gsu.edu/cgi/viewcontent.cgi?article=1020&context=art_design_facpub" target="_blank">
+                    Read it
+                  </a></div>
+                <br><br>        
+                </div>
+            </div>
+
+            <div id="popup2" class="popup-container">
+              <div class="popup-content">
+                  <a href="#" class="close">&#x2715;</a>
+                 
+                 
+                  <div class="titleof">
+                    <h1>Project B</h1> 
+                    <h2>Year</h2>
+                  </div>
+
+                  <img src="assets/test-image2.jpg" width="100%">
+
+
+                  <h3>Project B TBD.</h3>
+
+                  <div class="linktoproject"><a href="ii.	https://www.mtholyoke.edu/directory/alum/esther-howland" target="_blank">
+                    Learn more about the project.
+                  </a></div>
+                  <div class="linktoproject"><a href="d.	https://www.metmuseum.org/art/collection/search/719802 " target="_blank">
+                    Read it online.
+                  </a></div>
+                <br><br>        
+              </div>
+            </div>
+
+<div id="popup1" class="popup-container">
+              <div class="popup-content">
+                  <a href="#" class="close">&times;</a>
+
+                  <div class="titleof">
+                    <h1>Project A</h1> 
+                    <h2>Year</h2>
+                  </div>
+
+                  <img src="assets/test-image1.jpg" width="100%">
+
+
+                  <h3>Project A TBD.</h3>
+
+                  <div class="linktoproject"><a href="https://whitney.org/collection/works/7436" target="_blank">
+                    Learn more about this project.
+                  </a></div>
+                  <div class="linktoproject"><a href="https://scholarworks.gsu.edu/cgi/viewcontent.cgi?article=1020&context=art_design_facpub" target="_blank">
+                    Read it
+                  </a></div>
+
+                </div>
+            </div>
+
+            <div id="popup2" class="popup-container">
+              <div class="popup-content">
+                  <a href="#" class="close">&times;</a>
+                 
+                 
+                  <div class="titleof">
+                    <h1>Project B</h1> 
+                    <h2>Year</h2>
+                  </div>
+
+                  <img src="assets/test-image2.jpg" width="100%">
+
+
+                  <h3>Project B TBD.</h3>
+
+                  <div class="linktoproject"><a href="ii. https://www.mtholyoke.edu/directory/alum/esther-howland" target="_blank">
+                    Learn more about the project.
+                  </a></div>
+                  <div class="linktoproject"><a href="d.  https://www.metmuseum.org/art/collection/search/719802 " target="_blank">
+                    Read it online.
+                  </a></div>
+
+
+              </div>
+            </div>
+
+
+
+
+        </div>
+
+
+</div>
+
+<div id="Paris" class="tabcontent"> 
+    <button type="button" class="collapsible" id="essay">
+      <div class="number">01</div>
+      <div class=headline>Survival by Sharing (2023)</div>
+    </button>
+      <div class="content">
+        <div class="article">
+          <div class="writing"><p>
+            This talk describes a publishing practice, told in a series of scenes, non-chronologically. It's a cinematic timeline, told in queer time. 
+            <br>
+            <br>
+            Recently, I was in a very bad accident. I tripped in the street and started flying through the air. I landed and broke 12 bones. For a long time, I couldn’t move around. I couldn’t go to school where I was needed, where I’m the head of the graphic design department. I couldn’t go to the studio where I do my work and where I help organize community. For several months, I had a lot of time to reflect. I tried to understand what had happened, and one of the ways I did this was by making these images. I started feeding the details of my accident into a text-to-image generator. I wanted to reconstruct the accident, so I could see it from outside my body. I wanted to see if these images could reveal something about the event, like evidence. Maybe it could show me what had really happened. Maybe I could learn something about my experience that my memory couldn’t provide. I generated thousands of these images; it started to resemble an archive. This was my way of slowing down what had happened. I wanted to occupy the space of that moment, and it felt like this tool could help me.
+            </p>
+          </div>
+          <div class="images">
+          </div>
+        </div>
+      </div>
+
+    <button type="button" class="collapsible" id="essay">
+      <div class="number">02</div>
+      <div class=headline>Bad Archives (2023)</div>
+    </button>
+      <div class="content">
+        <div class="article">
+          <div class="writing"><p>Project TBD 
+            </p>
+          </div>
+          <div class="images">
+          </div>
+        </div>
+      </div>
+
+    <button type="button" class="collapsible" id="essay">
+      <div class="number">03</div>
+      <div class=headline>Dear Friend (2022)</div>
+    </button>
+      <div class="content">
+        <div class="article">
+          <div class="writing"><p>Project TBD 
+            </p>
+          </div>
+          <div class="images">
+          </div>
+        </div>
+      </div>
+
+</div>
+
+<div id="Providence" class="tabcontent">
+  <div class="description">
+      <div>          
+        Paul Soulellis is an artist and educator based in Providence, RI. His practice includes teaching, writing, and experimental publishing, with a focus on queer methodologies and network culture. He is the founder of Queer.Archive.Work, an independent 501(c)(3) non-profit organization that supports artists, writers, and activists with access to space, tools, and other resources for queer publishing. He is also Department Head and Associate Professor of Graphic Design at Rhode Island School of Design.
+      </div>
+
+
+</div>
+
+  <div class="description" style="background-color: #FFFFFF;">
+          
+          
+    </div>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+<script>
+  console.log('isthisthingon');
+
+  // Add active class to the current button (highlight it)
+  var header = document.getElementById("myBtnContainer");
+  var btns = header.getElementsByClassName("btn");
+  for (var i = 0; i < btns.length; i++) {
+    btns[i].addEventListener("click", function () {
+      var current = document.getElementsByClassName("active");
+      if (current.length > 0) {
+        current[0].className = current[0].className.replace(" active", "");
+      }
+      this.className += " active";
+    });
+  }
+
+
+  // for TABS
+  function openCity(evt, cityName) {
+        // Declare all variables
+        var i, tabcontent, tablinks;
+
+        // Get all elements with class="tabcontent" and hide them
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+          tabcontent[i].style.display = "none";
+        }
+
+        // Get all elements with class="tablinks" and remove the class "active"
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+          tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+
+        // Show the current tab, and add an "active" class to the button that opened the tab
+        document.getElementById(cityName).style.display = "block";
+        evt.currentTarget.className += " active";
+      }
+
+
+  // For COLLAPSIBLES
+
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.display === "block") {
+          content.style.display = "none";
+        } else {
+          content.style.display = "block";
+        }
+      });
+    }
+
+</script>
+
+
+
+
+
+</body>
+</html>
