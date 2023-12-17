@@ -21,7 +21,7 @@ padding-top:5px;
 padding-bottom:5px;
 padding-left:5px;
 padding-right:10px;
-width: 85%;
+width: auto;
 color: #000000;
 background-color: #FFA3F0;
 font-size: 20px;
@@ -35,11 +35,14 @@ a:visited {
 a:link {
   color: #000000;
     border: solid 1px #000000;
+    text-decoration: none;
 }
 
 a:hover {
-  color: #FFFFFF;
+  color: #FF00FF;
     border: solid 1px #000000;
+    border: solid 1px #FF00FF;
+    text-decoration: none;
 }
 
 
@@ -109,6 +112,20 @@ a:hover {
   font-size: 20px;
 }
 
+.tablinks:hover {
+  background-color: #FFA3F0;
+  color: #FF00FF;
+  width: auto;
+  border: solid 1px #FF00FF;
+  padding-top:5px;
+  padding-bottom:5px;
+  padding-left:5px;
+  padding-right:5px;
+  text-align: left;
+  outline: none;
+  font-size: 20px;
+}
+
 .tablinks.active {
   background-color: #000000;
   color: #FFA3F0;
@@ -127,9 +144,3 @@ a:hover {
   z-index: 10;
   font-size: 14px;
 }
-
-
-
-
-
-
