@@ -158,15 +158,15 @@ p {
   font-size: 16px;
 }
 
-p.footer {
+.footer p {
   font-size: 12px;
 }
 
-p.footer a:visited {
+.footer a:visited {
   font-size: 12px;
 }
 
-p.footer a:link {
+.footer a:link {
   font-size: 12px;
 }
 
@@ -188,15 +188,15 @@ p {
 .tablinks.active {
   font-size: 14px;
 }
-p.footer {
+.footer p {
   font-size: 10px;
 }
 
-p.footer a:visited {
+.footer a:visited {
   font-size: 10px;
 }
 
-p.footer a:link {
+.footer a:link {
   font-size: 10px;
 }
 
