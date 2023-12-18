@@ -46,22 +46,18 @@ a:hover {
 }
 
 
-.container {
-  margin: 0px;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  /* flex-direction: row;
-  -webkit-flex-direction: row; */
-  overflow-x: hidden !important;
-  overflow-y: hidden !important;
-  width: 100vw;
-  height: 100vh;
-  /* avoid browser level touch actions */
-  xtouch-action: none; 
+.column {
+  float: left;
+  width: 50%;
 }
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 
 /* Style the tab content */
 .tabcontent {
@@ -164,6 +160,14 @@ p {
 .footer {
   font-size: 12px;
 }
+a:visited {
+  font-size: 12px;
+}
+
+a:link {
+  font-size: 12px;
+  }
+
 }  
 
 @media only screen and (max-width:600px) {
@@ -185,6 +189,13 @@ p {
 .footer {
   font-size: 10px;
 }
+a:visited {
+  font-size: 10px;
+}
+
+a:link {
+  font-size: 10px;
+  }
 
 }
 
