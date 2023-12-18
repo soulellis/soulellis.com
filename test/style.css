@@ -123,10 +123,10 @@ a:hover {
 }
 
 .tablinks.active {
-  background-color: #000000;
+  background-color: #FF00FF;
   color: #FFA3F0;
   width: auto;
-  border:none;
+  border: solid 1px #FF00FF;
   text-align: left;
   outline: none;
   font-size: 20px;
@@ -157,16 +157,18 @@ p {
 .tablinks.active {
   font-size: 16px;
 }
-.footer {
-  font-size: 12px;
-}
-a:visited {
+
+p.footer {
   font-size: 12px;
 }
 
-a:link {
+p.footer a:visited {
   font-size: 12px;
-  }
+}
+
+p.footer a:link {
+  font-size: 12px;
+}
 
 }  
 
@@ -186,16 +188,23 @@ p {
 .tablinks.active {
   font-size: 14px;
 }
-.footer {
-  font-size: 10px;
-}
-a:visited {
+p.footer {
   font-size: 10px;
 }
 
-a:link {
+p.footer a:visited {
   font-size: 10px;
-  }
+}
+
+p.footer a:link {
+  font-size: 10px;
+}
+
+
+.column {
+  float: left;
+  width: 100%;
+}  
 
 }
 
