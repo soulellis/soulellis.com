@@ -158,7 +158,7 @@ p {
   font-size: 16px;
 }
 
-.footer p {
+.footer {
   font-size: 12px;
 }
 
@@ -188,7 +188,7 @@ p {
 .tablinks.active {
   font-size: 14px;
 }
-.footer p {
+.footer {
   font-size: 10px;
 }
 
