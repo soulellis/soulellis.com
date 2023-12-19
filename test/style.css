@@ -81,6 +81,20 @@ a:hover {
 
 /* Style the button that is used to open and close the collapsible content */
 .title {
+  background-color: #FFFF00;
+  color: #000000;
+  width: auto;
+  border:none;
+  padding-top:5px;
+  padding-bottom:5px;
+  padding-left:5px;
+  padding-right:5px;
+  text-align: left;
+  outline: none;
+  font-size: 20px;
+}
+
+.header {
   background-color: #000000;
   color: #FFA3F0;
   width: auto;
@@ -145,6 +159,9 @@ a:hover {
 p {
   font-size: 16px;
 }
+.header {
+  font-size: 16px;
+}
 .title {
   font-size: 16px;
 }
@@ -174,6 +191,9 @@ p {
 
 @media only screen and (max-width:600px) {
 p {
+  font-size: 14px;
+}
+.header {
   font-size: 14px;
 }
 .title {
