@@ -1,177 +1,1587 @@
 
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-	<title>soulellis.com</title>
-	<meta name="description" content="Paul Soulellis is an artist and educator based in Providence, RI. His practice includes teaching, writing, and experimental publishing, with a focus on queer methodologies and network culture. He is the founder and director of Queer.Archive.Work and faculty at Rhode Island School of Design." />
-	<meta name="keywords" content="art, artists, Paul Soulellis, Library of the Printed Web, queer, archive, publishing, RISD, Rhode Island, studio, faculty, Queer.Archive.Work, risograph" />
-	<link rel="stylesheet" type="text/css" href="build/style2.css" />
-	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
-
-	<meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:creator" content="@soulellis">  
-  <meta name="twitter:title" content="@soulellis" />
-  <meta name="twitter:description" content="Paul Soulellis is an artist and educator based in Providence, RI. His practice includes teaching, writing, and experimental publishing, with a focus on queer methodologies and network culture. He is the founder and director of Queer.Archive.Work and faculty at Rhode Island School of Design." />
-  <meta name="twitter:site:" content="soulellis" />
-  <meta name="twitter:image" content="https://raw.githubusercontent.com/soulellis/queer.archive.work/master/about/about1.jpg" />
-
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta property="og:title" content="Soulellis.com" />
-  <meta property="og:description" content="Paul Soulellis is an artist and educator based in Providence, RI. His practice includes teaching, writing, and experimental publishing, with a focus on queer methodologies and network culture. He is the founder and director of Queer.Archive.Work and faculty at Rhode Island School of Design." />
-  <meta property="og:image" content="https://raw.githubusercontent.com/soulellis/queer.archive.work/master/about/about1.jpg" />
-  <meta property="og:url" content="https://soulellis.com/index.html" />
-  <meta property="og:type" content="website" />
-
-	<script  type="text/javascript">
-		function changeImg(imgNumber)	{
-			var myImages = ["images/image1.jpg", "images/image2.jpg", "images/2b.jpg", "images/image3.jpg", "images/image4.jpg", "images/image5.jpg", "images/image6.jpg", "images/image7.jpg", "images/image8.jpg", "images/image9.jpg", "images/image10.jpg", "images/image11.jpg", "images/image12.jpg", "images/image13.jpg", "images/image14.jpg", "images/image15.jpg", "images/image16.jpg", "images/image17.jpg", "images/image18.jpg", "images/image19.jpg", "images/image20.jpg", "images/image21.jpg", "images/image22.jpg", "images/image23.jpg"]; 
-			var imgShown = document.body.style.backgroundImage;
-			var newImgNumber =Math.floor(Math.random()*myImages.length);
-			document.body.style.backgroundImage = 'url('+myImages[newImgNumber]+')';
-		}
-		window.onload=changeImg;
-	</script>
-
-
-	<style type="text/css">
-		.bg {background-position: top; background-size: cover; background-attachment:fixed; background-repeat: no-repeat;}
-
-
-@media screen and (max-width: 800px) {
-body {
-  background-image: url('');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: top;
-   background-size: 100% 100vh;
-  height: auto;
-  transform: scale(1.0, 1.0); 
-	background-color: white;
-
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: top-left;
-  background-size: auto;
-  height: auto;
-}
-
-p {
-	margin-left: 0vw;
-	margin-right: 0vw;
-	padding-right: 0;
-	font-size: 4vw;
-	line-height: 5vw;
-	color: black;
-	background-color: white;
-}
-
-
-@media only screen and (max-width: 768px){
-}
-
-body {background-color: blueviolet}   
-
-
-</style>
+  <meta charset="utf-8" />
+  <title>Paul Soulellis</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body class="bg">
+<body>
 
-<h2>
-	<div align="left">
-		<p class="colorblock8">Paul Soulellis is an artist and educator based in Providence, RI. His practice includes <a href="teaching/index.html">teaching</a>, <a href="writing/index.html">writing</a>, and <a href="work/index.html">experimental publishing</a>, with a focus on queer methodologies and network culture. He is the founder of <a href="https://queer.archive.work">Queer.Archive.Work</a>, an independent 501(c)(3) non-profit organization that supports artists, writers, and activists with access to <a href="https://queer.archive.work/studio/index.html" target="_blank">space</a>, tools, and other resources for queer publishing. He is also Department Head and Associate Professor of <a href="http://risd.gd/" target="_blank">Graphic Design</a> at Rhode Island School of Design. <a href="talks-interviews/index.html">Talks & interviews</a>. <a href="news/index.html">News</a>. <a href="CV/index.html">CV</a>. <a href="mailto:paul@soulellis.com" target="_blank">paul@soulellis.com</a> 
- <a href="https://www.twitter.com/soulellis" target="_blank">@soulellis</a>  </h2>
-		</p>
 
-<a href="https://queer.archive.work" target="_blank"><img src="images/400-47.jpg" style="max-width: 100%;"></a>
+
+<!-- toggle tab links -->
+<div class="tab">
+  <a id="top"></a>
+  <button class="tablinks" onclick="openCity(event, 'London')">https://soulellis.com</button>
+  <button class="tablinks" onclick="openCity(event, 'Paris')">Writing</button>
+<!---  <button class="tablinks" onclick="openCity(event, 'Montreal')">News</button> --->
+  <button class="tablinks" onclick="openCity(event, 'Providence')">About</button>
+</div>
+
+
+
+
+
+  
+
+<!-- Tab content LONDON -->
+<div id="London" class="tabcontent" style="display:block;">
+
+
+<!-- 2 Projects -->
+
+<button class="header">
+              Projects
+          </button>
+  
+  <div class="row">
+
+        <div class="column">
+          <button class="title">
+              Binch Press / Queer.Archive.Work (2020&ndash;ongoing)
+          </button>
+
+          <img src="assets/studio1c.jpg" width="100%">
+            <p>
+              <a href="https://queer.archive.work" target="_blank">Binch Press / Queer.Archive.Work</a> (QAW) is a cooperative print and publishing studio, a zine library, and an artists&rsquo; collective of Queer / Trans People and Black / Indigenous / People of Color. Our studio resides on unceded Narragansett land, in so-called Providence, RI. We host events, produce collective publications, print propaganda, and offer access to risograph, screen printing, and bookbinding equipment. I founded QAW as a 501c3 non-profit in March 2020; since then the project has grown rapidly from supporting 10 artists in its first year to a much-needed community hub supporting Queer and Trans life in Providence. In May 2021 QAW joined Binch Press to begin a multi-year lease at our current location in the Valley Neighborhood&mdash;a 2,000 square-foot studio housing a large array of print production resources, including risograph, screenprinting, letterpress, digital printing, and binding equipment. We&rsquo;ve now evolved to become a cooperative with 30&ndash;40 members, working as a volunteer-run organization. Members contribute to our rent by paying a monthly fee along a sliding scale, and we meet regularly to discuss all aspects of managing the studio, from community support to equipment maintenance to fundraising to organizing around social justice movements.
+            </p>
+        </div>
+
+        <div class="column">
+          <button class="title">
+              <em>Survival by Sharing</em> (2023)
+          </button>
+
+          <img src="assets/survival1c.jpg" width="100%">
+            <p>
+              <em>Survival by Sharing (scenes and provocations)</em> is a 16-page newsprint zine containing the text of a talk delivered on June 17, 2023 at <a href="http://k-s-t.org/conference25/" target="_blank">&ldquo;Publishing as a Worldview,&rdquo;</a> the 25th annual conference of the Korean Society of Typography at Platform-P, Seoul, Republic of Korea. 100 copies of the zine were printed at Binch / Queer.Archive.Work in Providence, RI and hand-carried to Seoul to distribute to the audience at the talk. The text describes a publishing ethos, told in a series of scenes, non-chronologically. It&rsquo;s a cinematic timeline, told in queer time. I reprinted <em>Survival by Sharing</em> and distributed a new edition of 50 copies at Printed Matter&rsquo;s <a href="https://sundayzinefair.org/" target="_blank">Sunday Zine Fair</a> at The Brooklyn Museum in November 2023. I plan to expand the nine scenes and 32 provocations into a larger work during my sabbatical year in 2024&ndash;25.
+            </p>              
+            <p>
+              <a href="https://docs.google.com/document/d/e/2PACX-1vS2kKmVmVbo8gIeTYVJ48yLBGUyp-xLgIFxQLIwoCL1J9XOaIAUXJV6xOkB8ZMyUdxD6uZQJCojVe7j/pub" target="_blank">Read the text.</a> 
+            </p>
+            <p>  
+              <a href="https://www.dropbox.com/s/2gqxuiuc5zonkn7/Survival_by_Sharing.pdf?dl=0" target="_blank">Download a scan of the printed zine [PDF].</a>
+            </p>
+        </div>
+
+      </div>
+
+
+<!-- Project -->
+<div>
+    <button class="title">
+      <em>These Mean Images</em> (2023)
+    </button>
+
+      <img src="assets/mean2c.jpg" width="100%">
+      <p>
+        <em>These Mean Images</em> is a project about the (im)possibility of reparative queer history through generative image-making. During a period of several months I created thousands of photographs using a popular generative image-making tool. I wrote text prompts that asked for images of queerness at different moments in history, and I was especially interested in visualizing situations that were not possible, not allowed, or otherwise not typically included in archives. At the same time, I was generating a large collection of images that tried to visualize a real-world incident that occurred to me in October 2022, where I was injured in an accident and then remained unconscious in public for an unknown period of time. <em>These Mean Images</em> tries to locate impossible-to-see moments of vulnerability and tenderness in a blurry &ldquo;other&rdquo; reality of queer becoming. Referencing Hito Steyerl&rsquo;s <a href="https://newleftreview.org/issues/ii140/articles/hito-steyerl-mean-images" target="_blank">&ldquo;Mean Images,&rdquo;</a> I remain unconvinced that these images are useful or needed; I wrote about this in <em>Survival by Sharing,</em> concluding that we need to devote more attention to the images and artifacts that are neglected all around us (in archives known and unknown). &ldquo;Mean images&rdquo; do not repair; rather, it&rsquo;s possible that they may even damage our understanding of queer history. Still, I am fascinated that they now exist, by the relative ease with which they are created, and by their power to change our collective relationship to traditional archives forever.             
+      </p>
+  </div>
+  <div class="row">
+    <div class="column">
+      <img src="assets/mean1cc.jpg" width="100%">
+    </div>
+    <div class="column">
+      <img src="assets/mean3c.jpg" width="100%">      
+    </div>
+  </div>
+
+
+<!-- Project -->
+<div class="row">
+    <button class="title">
+      <em>resting reader</em> (2022)
+    </button>
+</div>
+<div class="row">
+    <div class="column">
+      <img src="assets/resting6c.jpg" width="100%">
+      <img src="assets/resting4c.jpg" width="100%">
+      <p>
+        <a href="https://www.dropbox.com/s/n4k03h1hvmqr8ev/QAW_resting_reader.pdf?dl=0" target="_blank"><em>resting reader</em></a> is a book of texts and images that I assembled from source material found on the shelves of the library at the Queer.Archive.Work shared studio. All pages were scanned directly into our risograph, printed in an unlimited edition, and bound on the studio&rsquo;s Horizon BQ-140 perfect binder. I avoided using a computer, except to set the type on the cover. The content was selected during the rise of the COVID-19 Omicron variant in December 2021, around the loose themes of rest, quiet, care, queer, sanctuary, reflection, collective, and generosity. 100 copies were distributed at the Queer.Archive.Work studio and through the mail. 
+      </p>
+    </div>  
+    <div class="column">
+      <img src="assets/resting5c.jpg" width="100%">
+      <img src="assets/resting2c.jpg" width="100%">
+      <p>
+        This publication is also a reflective response to my <em>Urgency Readers</em> (2019&ndash;20), and the focus on speed, crisis, and refusal in those volumes. I wrote about the process of creating <em>resting reader</em> and the power of atemporal communication with queer ancestors, both living and dead, for <em>Dear Friend</em>, the snail-mail project published by Sandra Nuut and Ott Kagovere.
+        <br>        
+        <br>
+        Download <a href="https://www.dropbox.com/s/n4k03h1hvmqr8ev/QAW_resting_reader.pdf?dl=0" target="_blank">a full PDF [41MB] of <em>resting reader</em></a>, scanned from a printed copy.
+      </p>
+    </div>  
+</div>
+
+
+<!-- Project -->
+<div class="row">
+  <div class="column">
+    <button class="title">
+      <em>notes on weeds</em> (2022)
+    </button>
+      <img src="assets/weeds2c.jpg" width="100%">
+      <p>
+          I was invited to contribute to <em>Undecimals</em>, a series of artist-organized art exchanges that&rsquo;s been ongoing in Canada since 2015. All of the art is distributed through the mail, and I was assigned August 2022 for the &ldquo;Almanac&rdquo; portion of the project. I produced <em>notes on weeds</em> as a one-page research document exploring weeds and queerness in the urban landscape.
+      </p>
+  </div>
+
+
+<!-- Project -->
+  <div class="column">
+    <button class="title">
+      <em>Ouroboros</em> (2022)
+    </button>
+      <img src="assets/ouro1c.jpg" width="100%">
+      <p>
+          I worked with the <a href="https://imagetextithaca.com/" target="_blank">Image Text Ithaca MFA Program</a> at Ithaca College in 2022 (now the <a href="https://aap.cornell.edu/academics/art/master-fine-arts-image-text" target="_blank">Master of Fine Arts in Image Text at Cornell University</a>) to edit, design, and produce <em>Ouroboros</em>, the thesis publication of the ITI MFA class of 2022. The six-month process was highly collaborative, and culminated in the 144-page magazine-style publication, organized into two sections: &ldquo;there is no apparent system,&rdquo; and &ldquo;only a map of feeling.&rdquo; We also curated and designed a parallel exhibition at Essex Flowers in NYC in August 2022. <em>Ouroboros</em> also launched at Printed Matter&rsquo;s NY Art Book Fair in October. Publication photograph by Hyacinth Schukis.
+      </p>
+  </div>
+</div>
+
+
+
+<!-- Project -->
+  <div>
+    <button class="title">
+      <em>Tiny Digest #1 (SPACE)</em> (2021)
+    </button>
+      <img src="assets/tiny1c.jpg" width="100%">
+      <p>
+        <em>Tiny Digest #1</em> is a slow, distributed-by-hand Queer.Archive.Work newsletter printed on a single sheet of cheap paper. I designed it to be assembled quickly, easily printed, and mailed out in an ordinary business envelope. I created an open call to the QAW community, resulting in 23 contributions around the theme of space&mdash;queer space, taking up space, sacred space, porous space, safe space, outer space, spaced out, shared space, screen space, etc.
+      </p>
+  </div>
+
+<!-- Project -->
+<div class="row">
+    <button class="title">
+      <em>What is queer typography?</em> (2021)
+    </button>
+</div>
+
+<div class="row">
+  <div class="column">
+      <img src="assets/queertype1c.jpg" width="100%">
+  </div>
+  <div class="column">
+      <img src="assets/queertype2c.jpg" width="100%">    
+  </div>    
+ <div class="row">
+      <img src="assets/queertype3c.jpg" width="100%">
+ </div> 
+  <div class="column">
+      <p>
+        <em>What is queer typography?</em> began as a talk I delivered at the <a href="https://www.tdc.org/news/tdc-launches-global-type-drives-communities-2021-virtual-conference/" target="_blank">Type Drives Communities Conference</a>, hosted by the Type Directors Club. I researched and wrote the talk as an investigation into the roles of illegibility, agitation, and failure in typography, with the title&rsquo;s alluring question guiding an inquiry into larger practices of &ldquo;unlearning&rdquo; in art and design education. I later published the text in a zine that I designed and printed at Queer.Archive.Work, in Providence, RI. I distributed the edition through the mail during the COVID-19 pandemic, and made scans of the zine available online. This piece of writing and the ideas explored here have become one of my most referenced works. The entire zine was translated into Korean and re-published by In-ah Shin. The essay has been re-published by GenderFail Press and also appears in <em>Amalgam 4</em>. I was also invited to deliver the talk to the Queer Design Club in June 2021 [<a href="https://www.youtube.com/watch?v=jeArgVz_5AM" target="_blank">watch it here</a>].    
+      </p>
+  </div>    
+  <div class="column">
+    <p>
+        <a href="https://www.printmag.com/designer-interviews/what-is-queer-typography/" target="_blank">An interview with me</a> about the zine was published in <em>PRINT Magazine</em> in August 2021. Shown above is an installation of the entire zine (along with Tiny Digest #1) at <a href="https://www.spaziomaiocchi.com/sprint-independent-publishers-and-artists-books-salon/" target="_blank">Hard Copy Soft Touch&mdash;Experiences on Queer & Transfeminist Archives</a>, an exhibition organized by <a href="https://www.sprintmilano.org/" target="_blank">Sprint Milano</a> at Spazio Miocchi in Milan, Italy in November 2021. I reprinted the zine and distributed a new edition of 50 copies at Printed Matter&rsquo;s Sunday Zine Fair at The Brooklyn Museum in November 2023. I plan to further expand and extend <em>What is queer typography?</em> in the near future.
+      </p>
+        <br>
+      <p>  <a href="https://www.dropbox.com/s/n41yd0o70hn1qkl/WIQT1.pdf?dl=0" target="_blank">Download a PDF scan of <em>What is queer typography?</em> [13MB].</a>
+    </p>
+  </div>    
+  </div>  
+
+
+<!-- Project -->
+<div class="row">
+    <button class="title">
+      <em>QUEER MATTERS</em> (2021)
+    </button>
+</div>
+
+<div class="row">
+  <div class="column">
+      <img src="assets/matters1cc.jpg" width="98.5%">
+      <img src="assets/matters2cc.jpg" width="98.5%">
+  </div>
+  <div class="column">
+      <img src="assets/matters4c.jpg" width="100%">    
+  </div>
+  </div>
+
+  <div class="row">
+  <div class="column">
+      <p>
+        All throughout the fall and winter of 2020, Queer.Archive.Work community members met weekly, on zoom. We designed simple one-hour workshops for all of us to engage in making together, never feeling like work but more like online spaces for care and play. These workshops typically involved 5&ndash;15 people. In the new year, we realized that we&rsquo;d made a beautiful queer archive of work across a range of media, including writing and drawings and images and chats. <em>QUEER MATTERS</em>, a 60-page publication&mdash;written and edited collaboratively, and designed by me&mdash;is visible evidence of our community and a joyful invitation to join us. The interior was risograph-printed at Queer . Archive . Work and the cover wrap was digitally printed at Newspaper Club. 100 copies launched for free/trade/purchase on February 24, 2021 on the occasion of Printed Matter&rsquo;s Virtual Art Book Fair, and another 100 copies were distributed by the publication&rsquo;s contributors.
+      </p>
+  </div>    
+  <div class="column">
+    <p>
+        Contributors: Aitana Cant&uacute;, Casper, T. Deutch, Jax Erickson, Sel Gerosa, Sara Inacio, Furqan Jawed, nicole killian, David Kim, Sloan Leo, Mel Lopez, Robin N., Kitt Peacock, Cierra Michele Peters, Sal Randolph, Carmen Ribaudo, Kirslyn Schell-Smith, Paul Soulellis, Charlotte Strange, Lauren Stroh, Kelsey Sucena, Hannah Suzanna, Luke Swenson, Zac Thompson, &Ccedil;aca Yvaire
+    </p>
+  </div>    
+  </div>  
+
+
+<!-- Project -->
+<div class="row">
+  <div class="column">
+    <button class="title">
+      <em>TAKE IT APART</em> (2020)
+    </button>
+      <img src="assets/takeit2cc.jpg" width="100%">
+      <p>
+        <em>TAKE IT APART</em> is a publication that I designed for the <a href="https://imagetextithaca.com/" target="_blank">Image Text Ithaca MFA Program</a> at Ithaca College in 2020 (now the <a href="https://aap.cornell.edu/academics/art/master-fine-arts-image-text" target="_blank">Master of Fine Arts in Image Text at Cornell University</a>), with work by Andre Bradley, Hugo Gallo, Shantal Jeewon Kim, Laura Pierson, Amy Schuessler, and Kelsey Sucena. Jo-ey Tang and I worked with the group to curate their individual thesis projects and translate them to a print-based, de-centered mode of exhibition. The newsprint edition of 300 was mailed to recipients with instructions to activate the publication as a DIY installation in physical space. Students conceived of potential protocols for their individual sheets, which slide out of the folded, unbound publication. The publication was distributed in November 2020, and officially launched at Printed Matter&rsquo;s <a href="https://www.printedmatter.org/programs/events/1162" target="_blank">Virtual Art Book Fair</a> with an online performance and readings in February 2021.
+      </p>
+  </div>
+
+
+<!-- Project -->
+  <div class="column">
+    <button class="title">
+      <em>SCREEN ZINE</em> (2020)
+    </button>
+      <img src="assets/screen1c.jpg" width="100%">
+      <p>
+        <em>Screen Zine</em> is the result of a one-hour workshop conducted online for the <a href="https://www.printedmatter.org/programs/events/1122" target="_blank">Brooklyn Art Book Fair</a> on Saturday, June 27, 2020 at 2:00PM. The workshop opened with 1-minute attunement exercises, as an experiment to gather and presence everyone into a digital screen-based space. The 20 participants then composed images and messages on their desktops for about 20 minutes. Language from <em>Urgency Reader 2</em> was provided for possible inspiration. Participants shared their screens and the desktops were captured as images. Later, those images were mixed and composed into 3-color risograph prints, and assembled into an edition of 30 zines. Each participant received a copy of <em>Screen Zine</em> in the mail. Participants: SHL, Haley Lauw, Tiyasha Ghattak, dru, truly c. strange, Allison Parrish, Julian Parikh, Emilie Baltz, Elisabeth Nicula, Zoe Welch, Paige Landesberg, Dawn S, Hannah Coleman, teke cocina, SB, corinne, Aitana Cantú, chloe zimmerman, Erick Guzman, David Kim.
+      </p>
+  </div>
+</div>
+
+
+<!-- Project -->
+  <div class="row">
+    <button class="title">
+      <em>URGENCY READER 2</em> (2020)
+    </button>
+      <img src="assets/urgency2-2c.jpg" width="100%">
+    <div class="column">
+      <p>
+        <em>Urgency Reader 2: Mutual Aid Publishing During Crisis</em> began with a 10-day open call that I announced on March 18, 2020 in response to the COVID-19 pandemic. The call for work was motivated by two desires: 1&mdash;to collectively document some of the extraordinary conditions, dynamics, and emotions being experienced while in quarantine, and 2&mdash;to provide some relief to artists and writers impacted by the crisis, in both creative and monetary forms. How might I use publishing as an artistic practice to embody communal care? More than 100 artists and writers submitted work, mostly generated during quarantine. Contributors were compensated a total of $2,295, using funds from a 2020 Rhode Island State Council on the Arts grant, plus an anonymous donation. 65 of the 110 contributors donated their share of the compensation back to the pool, resulting in 45 contributors each receiving a stipend of $51. An edition of 25 hand-numbered copies of <em>Urgency Reader 2</em> was printed and assembled at Queer.Archive.Work during the first week of April 2020, and printed copies were sold to collectors in order to fund the first round of QAW riso residences. The final 278-page publication was a loose assemblage of 129 prints, folded sheets, and zines, wrapped with rubber bands and contained in a plastic bag. 
+      </p>
+      <br>
+      <p>
+        Download <em>Urgency Reader 2</em>
+        <br>
+        <a href="https://www.dropbox.com/s/fbz7nzgfn6f9ctx/Urgency_Reader_2_lo.pdf?dl=0" target="_blank">Lower-res scan of printed edition (203MB PDF)</a>
+        <br>
+        <a href="https://www.dropbox.com/s/htqn3jjuw7c05vq/Urgency_Reader_2_hi.pdf?dl=0" target="_blank">High-res scan of printed edition (1.73GB PDF)</a>
+        <br>
+        <a href="https://www.printedmatter.org/catalog/56612" target="_blank">Free download at Printed Matter</a>
+      </p>
+      </div>
+      <div class="column">
+        <p>
+       Contributors: AK/OK (Kate Jarboe + M. Wright), Adam Chuong, Alessandro Ghio, Nicholas McGuigan, Lisa Powell, Alexis Erickson, Andrew W. Smith, Anna Gardner, anobelisk, Anonymous, Anonymous, Anonymous Nurses, Ant M Lobo, Anthony Warnick, Anzia Anderson, arthur katrina, Athena Zeros, Azulae Northa, Bailey Steele, Be Oakley, bean drake, brook vann, Cade Diehm & Edward Anthony, The New Design Congress, Caiti Borruso, Carlos Kong, Carmen Ribaudo, Caroline Sorin, chariot wish, Chr. Winther, Christian Ortiz, Christopher Cole, claire m., Connor Frew, corinne ang, D Rosen, Danny Aldred, Dylan Tescher W., Edwige Charlot, Elaine Lopez, Elie Andersen, Elisabeth Nicula, ellen zahniser, Emma Kemp with May Hoover, Angel Barris, Brittany Carter, Adriene Im, Erik Freer, everett epstein, GOVERNANCE (Rebecca Uliasz and Quran Karriem), Gregory Ghilani Fawkes, Greta Huang Skagerlind, Gu, Hannah Azar Strauss, Hugo Gallo, Jake Dugard, Jennifer Tobias, Joe Potts, John-Francis Qui&ntilde;onez, Joshua Duttweiler, Katherine Ye, kathy cho & rachel hrbek, Kelsey Sucena & Nessa Grasing, Kirslyn Schell-Smith, Kit, Kitt Peacock, L S, Laith A. Ayogu, laura lamb brown-lavoie, Lauren Stroh, Lermworm, Lisa J. Maione, Logan K. Young, Louise Drulhe, Louna Bou Ghanem, Luis Carlos L&oacute;pez, Mae Eskenazi, Maggie Siebert, Marisa Fulper Estrada, Miriam Navarro Prieto, Molly Soda, Nafis M. White, nicole killian, Nina Muccia, Noa Mori, Norah Gunn, Olive B. Godlee, Oliver/Olivier, Pablo Lerma, Paul Maheke, Paul Soulellis, Pickle Partisans, Rachel Hrbek, Rebecca Gates, Rebecca Wilkinson, Rena Rong, robynn.xyz, Ruben Castillo, Ryan Skrabalak, Rylie LAWVER, Sabrena & Rose Ghostly, Sal Randolph, sam m-h, Sara Inacio, Shou Jie Eng, Sigrid Pauen, Sophia LaFraga, Sophie Seita and Naomi Woo, T. Deutch, Taehee Whang, tess brown-lavoie, The Making Public Collective (Miriam Rasch), Tiara Roxanne, Tiffany Patterson, wermo, Wil van Iersel, Zo&euml; Pulley   
+        </p>
+      </div>
+  </div>
+
+<!-- Project -->
+<div class="row">
+  <div class="column">
+    <button class="title">
+      <em>URGENCY READER 1</em> (2019)
+    </button>
+      <img src="assets/reader1c.jpg" width="100%">
+      <p>
+        <em>Urgency Reader</em> is a quick assembling of texts that I risograph printed and bound as a book in Pawtucket, RI, and launched at the <a href="https://artgallery.yale.edu/calendar/events/odds-and-ends-art-book-fair-0" target="_blank">Odds and Ends Art Book Fair</a> at Yale University Art Gallery. Suggested topics from the open call included urgency, craft, queerness, gender, transformation, kinship, race, survival, post-apocalyptic practice, futurity, pedagogy, surveillance capitalism, death of capital, radical publishing, decolonization, augmentation, resistance, sci-fi, collective care, and joy. Inspired by <a href="https://www.artecontemporanea.com/product/16192/" target="_blank"><em>Omnibus News #1</em></a> (1969), <a href="https://artistsperiodicals.blogspot.com/2012/07/assembling.html?m=1" target="_blank"><em>Assembling</em></a> (1970&ndash;87), and other assembling publications, <em>Urgency Reader</em> was an experiment in publishing as a gesture of call and response: the quick circulation of a charged collection of texts&mdash;in some cases raw, in-progress, or sketchy&mdash;to a small but deeply engaged audience. As Karl Young <a href="http://www.spunk.org/texts/art/sp000177.html" target="_blank">wrote</a> in his foreword to <em>Assembling #12</em>, such publications &ldquo;can be read as chance-generated collages, and as spontaneous pieces of printed performance art.&rdquo;
+      </p>
+      <p>
+        A total of eighty contributors far and wide sent 467 pages of work in just under two weeks, signaling a need to publish urgently, but less preciously, on non-corporate platforms. 
+      </p>
+      <p>
+        I used my stapler&rsquo;s maximum capacity to determine the page count (126 sheets + cover bound with 5/8 inch staples). The goal of the edit was to be as inclusive as possible, at times asking contributors to compact their submissions in order to free up space for others. The order of the texts as they appear in the book was determined by chance by assigning a series of random integers from random.org to the alphabetical list of contributors. The edition was 110 copies.
+      </p>
+      <br>
+      <p>
+        Download <em>Urgency Reader</em>
+        <br>
+        <a href="https://www.dropbox.com/s/upt110q2fetc4zs/URGENCYREADER_lo.pdf?dl=0" target="_blank">Low-res PDF (37MB)</a>
+        <br>
+        <a href="https://www.dropbox.com/s/vgea7et6cynzmin/URGENCYREADER_hi.pdf?dl=0" target="_blank">High-res PDF (950MB)</a>
+      </p>
+  </div>
+
+<!-- Project -->
+  <div class="column">
+    <button class="title">
+      <em>URGENTCRAFT</em> (2019)
+    </button>
+      <img src="assets/craft1c.jpg" width="100%">
+      <p>
+        <em>URGENTCRAFT</em> is a set of principles that works to resist oppression-based design ideologies, especially in art and design education. <em>URGENTCRAFT</em> isn&rsquo;t a manifesto, but rather a constellation of tactics&mdash;a series of incomplete observations; a note to self. This is a reminder that we can use art and design to loosen hegemonic power. The print was originally made to accompany the talk &ldquo;URGENCRAFT,&rdquo; delivered at the Eyeo Festival in June 2019 (and revised in April 2020 for <a href="https://thecreativeindependent.com/essays/on-the-power-of-mutual-aid-publishing-during-crisis/" target="_blank"><em>The Creative Independent</em></a> in response to COVID-19). The talk outlines these principles and provides examples of artists and writers who manifest these ideas. It was reprinted as <a href="https://www.dropbox.com/s/1f6k4zd3zechozs/UC_5.pdf?dl=0" target="_blank">a zine</a> in an edition of 200 in August 2019 and included in <em>QUEER.ARCHIVE.WORK #3</em> for distribution at Printed Matter&rsquo;s NY Art Book Fair.
+      </p>
+      <UL>
+      <li>Do what you can</li>
+      <li>Use modest tools and materials</li>
+      <li>Understand the politics of your platforms</li>
+      <li>Practice media fluidity</li>
+      <li>Work in public (self-publish!)</li>
+      <li>Practice a slow approach to fast making</li>
+      <li>Acknowledge complexity and contradiction in making</li>
+      <li>Work towards the then and there of queer futurity (while acknowledging past struggles and privileges)</li>
+      <li>Agitate/interfere (&ldquo;make good trouble&rdquo;)</li>
+      <li>Dismantle white supremacy</li>
+      <li>Resist, loosen, and dismantle ableism, heteropatriarchy, and settler colonialism</li>
+      <li>Resist capitalist strategies</li>
+      <li>Resist design perfection / stay with the mess</li>
+      <li>Question linearity and other hierarchical structures</li>
+      <li>Commit to maintenance and self-care as a form of urgency</li>
+      <li>Fail to provide the perfect read (resist legibility)</li>
+      <li>Steal from the institution</li>
+      <li>Prioritize communal care as a never-ending practice</li>
+      </UL>
+  </div>
+</div>
+
+<!-- Project -->
+<div class="row">
+  <div class="column">
+    <button class="title">
+      <em>Let us affirm our desire to keep swimming.</em> (2019)
+    </button>
+      <img src="assets/swimming1c.jpg" width="100%">
+      <p>
+        <em>LET US AFFIRM OUR DESIRE TO KEEP SWIMMING</em> is a collaborative publication authored and produced by the students of Urgency Lab Ithaca, a 2-week course that I taught at Image Text Ithaca in July 2019. The zine is an assemblage of printed materials containing dreams, demands, and agreements that evolved during the class, over the course of eight 3.5-hour sessions. The students produced an edition of 45 that was distributed on July 11 during a performative reading at Ithaca College. The class began with the distribution of a non-linear syllabus. Each student received a deck of 51 cards, in an edition of 10, that I risograph printed in Pawtucket, RI. The cards contained prompts, concept words, readings, and other provocations that were shuffled and rearranged and rewritten by the students, with my guidance. The class evolved out of these early discussions about how to spend our time, leading to collective agreements and activities that emerged organically from the group.
+      </p>
+  </div>
+
+<!-- Project -->
+  <div class="column">
+    <button class="title">
+      <em>URGENCY COOKBOOK</em> (2019)
+    </button>
+      <img src="assets/cookbook2c.jpg" width="100%">
+      <p>
+        <em>Urgency Cookbook</em> is a collaborative publication in 80 parts, authored and hand-drawn by participants in Urgency Lab, a class I taught in spring 2019 at Rhode Island School of Design. <em>Urgency Cookbook</em> documents the language that evolved during the class, with ingredients and recipes for collective care—presented as terms, definitions, quotes, drawings, photos, and stories, presented as a deck of 80 cards. I edited, designed, printed, and assembled the edition of 30. Contributors: Xingyang Cai, Adam Chuong, Ana Cristina Espinosa P&eacute;rez, Maria Gerdyman, Olive Godlee, Natalie Linn, Noa Machover, Eleanor Meshnick, Mo Naseem, Bobby Joe Smith III, Caroline Smith, Paul Soulellis, Tongyi Zhang. Terms/concepts included in <em>Urgency Cookbook</em>&mdash;access, accountability, archive, authenticity, boundaries, bread, building, collaboration, communal care, community/classroom, critique, design in the wild, eating, failure, faking, family, for who?, futures, humor, identity, (il)legibility, institution, institutional memory, (in)visibility, joy, lack, listening, making, meal plans, memory, microcosm, money, neglect, opportunity, post-apocalyptic practice, privilege, publishing, radical generosity, rage, refusal, salad, scam/steal, scavenging, sharing, soup, space making, trust, undercommons, urgency, urgency lab.
+      </p>
+  </div>
+</div>
+
+<!-- Project -->
+  <div>
+    <button class="title">
+      <em>QUEER.ARCHIVE.WORK #3</em> (2019)
+    </button>
+      <img src="assets/qaw3-1c.jpg" width="100%">
+      <img src="assets/qaw3-3c.jpg" width="100%">
+      <p>
+        For <em>Queer.Archive.Work #3 (Urgentcraft)</em>, I assembled 18 artists and writers who prioritize maintenance as a form of urgency. Upon receipt, the publication e x p a n d s in the hands of its reader, filling an enormous space with queer feeling. It shapes a landscape that speaks of visibility, of a commitment to pleasure, of kinship networks, of memory, of closely re-written histories, of engaged dialogue, of riptides, of affective space beyond the material, of a failed, imperfect read. My goal for this publication was to model communal care as a never-ending practice. Contributors: arthur katrina, Autumn Knight, Daedalus Li, Kelsey Sucena, Kirslyn Schell-Smith, Lucas LaRochelle, Malcolm Rio (RIO ULTRAOMNI), Olive Godlee, Parker Bright, Paul Soulellis, Qualeasha Wood, Rin Kim with Malachi the Moth, Candex Louie, and Bri, Ron Morrison, Sheida Soleimani, Shiv Kotecha, Sophia LaFraga. Launched at Printed Matter&rsquo;s 2019 NY Art Book Fair (installation photo shown).
+        <br>
+        The publication contains twelve parts in a resealable 14 in. x 20 in. poly bag:<br>
+        &mdash;a 40-page newsprint broadsheet folio<br>
+        &mdash;a 16-page newsprint tabloid folio<br>
+        &mdash;a 144-page paperback book<br>
+        &mdash;a 16-page risograph zine<br>
+        &mdash;a 20-page risograph zine<br>
+        &mdash;an 8-page risograph zine<br>
+        &mdash;(6) risograph prints<br>
+      </p>
+  </div>
+
+<!-- Project -->
+<div class="row">
+    <button class="title">
+      <em>QUEER.ARCHIVE.WORK #2</em> (2019)
+    </button>
+</div>
+
+<div class="row">
+  <div class="column">
+      <img src="assets/qaw2-1c.jpg" width="100%">
+      <p>
+        <em>Queer.Archive.Work 2 (1923 Internet Archive Edition)</em> was installed in a special reading room at the <a href="https://archive.org/" target="_blank">Internet Archive</a> in San Francisco on January 25, 2019. Printed as an edition of 100, the publication is a newsprint catalog enclosing a set of annotated risograph prints, allowing lesser-known material from 1923 to intermingle in a loose assemblage. Artifacts include rare, historical LGBTQIA+ content that I made available for the first time in digital format, and works by Black and Native American artists and writers. All items were originally published in 1923 and were in the public domain as of January 1, 2019. I edited and produced <em>Queer.Archive.Work 2</em> as an artist-in-residence at the Internet Archive, and it was included as part of the Archive&rsquo;s <a href="https://blog.archive.org/2018/12/05/join-us-for-a-grand-re-opening-of-the-public-domain-january-25-2019/" target="_blank">celebration of the newly-expanded public domain</a>. I was invited to speak about the project during the celebration and addressed 1,000 guests with <a href="https://blog.archive.org/2019/01/25/queer-archive-work-2-1923-internet-archive-edition/" target="_blank">a short talk about the project</a>. 
+      </p>
+  </div>
+
+  <div class="column">
+      <img src="assets/qaw2-2c.jpg" width="100%">
+      <p>
+            Contents&mdash;
+<br>  <a href="https://archive.org/details/barbette" target="_blank">A photograph</a> of <a href="https://en.wikipedia.org/wiki/Barbette_(performer)" target="_blank">Barbette</a>, 1923
+<br>  <a href="https://archive.org/details/michaelfield1923" target="_blank">A poem</a> by <a href="https://en.wikipedia.org/wiki/Michael_Field_(author)" target="_blank">Michael Field (Katherine Harris Bradley & Edith Emma Cooper)</a>, 1923
+<br>  <a href="https://archive.org/details/romainebrooks1923" target="_blank">A self-portrait</a> by <a href="https://en.wikipedia.org/wiki/Romaine_Brooks" target="_blank">Romaine Brooks</a>, 1923
+<br>  <a href="https://archive.org/details/julianmartinez1923" target="_blank">A painting</a> by <a href="https://en.wikipedia.org/wiki/Julian_Martinez" target="_blank">Juli&aacute;n Mart&iacute;nez</a>, 1923
+<br>  <a href="https://archive.org/details/Cane_Jean_Toomer" target="_blank">A poem</a> from <a href="https://en.wikipedia.org/wiki/Cane_(novel)" target="_blank"><em>Cane</em></a>, by <a href="https://en.wikipedia.org/wiki/Jean_Toomer" target="_blank">Jean Toomer</a>, 1923
+<br>  <a href="https://archive.org/details/hobosociologyofh00ande" target="_blank">A page</a> from <em>The Hobo</em>, featuring the first appearance of <a href="https://en.wikipedia.org/wiki/Faggot_(slang)" target="_blank"><em>fag</em></a> in print, 1923
+<br>  <a href="https://archive.org/details/OnAGreyThread/page/n3" target="_blank">A poem</a> from <em>On A Grey Thread</em> by <a href="https://en.wikipedia.org/wiki/Elsa_Gidlow" target="_blank">Elsa Gidlow</a>, 1923
+<br>  <a href="https://archive.org/details/lachaise1923" target="_blank">A drawing</a> of <a href="https://en.wikipedia.org/wiki/Hart_Crane" target="_blank">Hart Crane</a> by Gaston Lachaise, 1923
+<br>  <a href="https://archive.org/details/crisis2526dubo/page/96" target="_blank">1923 covers</a> of <a href="https://en.wikipedia.org/wiki/The_Crisis" target="_blank"><em>The Crisis</em></a>, edited by <a href="https://en.wikipedia.org/wiki/W._E._B._Du_Bois" target="_blank">W. E. B Du Bois</a>
+<br>  <a href="https://archive.org/details/postcard1923" target="_blank">A postcard of young men and women</a>, unknown photographer, 1923
+<br>  <a href="https://archive.org/details/awatsireh1923" target="_blank">A painting</a> by <a href="https://en.wikipedia.org/wiki/Awa_Tsireh" target="_blank">Awa Tsireh</a>, 1923
+<br>  <a href="https://archive.org/details/emmagoldman1923" target="_blank">A 1923 letter</a> from <a href="https://en.wikipedia.org/wiki/Emma_Goldman" target="_blank">Emma Goldman</a> to Magnus Hirschfield
+<br>  <a href="https://archive.org/details/GuideToRacialGreatness/page/n97" target="_blank">An excerpt</a> from <em>Guide to Racial Greatness</em> by <a href="https://en.wikipedia.org/wiki/Sutton_E._Griggs" target="_blank">Sutton E. Griggs</a>
+<br>  <a href="https://archive.org/details/Salomfebruary151923" target="_blank">A still image of Alla Nazimova</a> from <a href="https://en.wikipedia.org/wiki/Salom%C3%A9_(1923_film)" target="_blank">Salom&eacute;</a>, 1923
+<br>  <a href="https://archive.org/details/neprophet1923" target="_blank">A 1923 photograph of an artwork</a> by <a href="https://en.wikipedia.org/wiki/Nancy_Elizabeth_Prophet" target="_blank">Nancy Elizabeth Prophet</a>
+<br>
+
+      </p>
+  </div>
+</div>
+
+<!-- Project -->
+  <div>
+    <button class="title">
+      <em>QUEER.ARCHIVE.WORK #1</em> (2018)
+    </button>
+      <img src="assets/qaw1-1c.jpg" width="100%">
+      <img src="assets/qaw1-2c.jpg" width="100%">
+      <p>
+        This was the first project that I ever produced on a risograph (digital printing on newsprint was also used). Originally conceived as &ldquo;Printed Web #6&rdquo; and later changed to <em>Queer.Archive.Work #1</em>, this publication was the start of the ongoing Queer.Archive.Work project. Everything assembled in this issue was unbound: no staples, glue, or clips were used. The nine parts of the publication are held together using folding, nesting, and enveloping. Sheets may be pulled out and rearranged, encouraging new juxtapositions and relationships each time it&rsquo;s read. Featuring contributions by American Artist, Somnath Bhatt, Unity Press, Demian Din&#233;Yazhi&#180;, Jack Halberstam, shawn&#233; michaelain holloway, Nora N. Khan, nicole killian, Be Oakley (GenderFail), Porpentine Charity Heartscape, Nat Pyper, and Sal Randolph. An edition of 300 was printed in my studio in Pawtucket, RI and launched at the 2018 NY & Boston Art Book Fairs. A second edition of 60, featuring Allison Parrish, was featured at the <a href="https://techzinefair.org/" target="_blank">NY Tech Zine Fair</a> in December 2018. 
+      </p>
+  </div>
+
+<!-- Project -->
+<div class="row">
+    <button class="title">
+      Steve, Harvey and Matt, (2018)
+    </button>
+</div>
+<div class="row">
+  <div class="column">
+      <img src="assets/epa1c.jpg" width="100%">
+      <p>
+
+      </p>
+  </div>
+  <div class="column">
+      <img src="assets/epa2c.jpg" width="100%">
+      <p>
+
+      </p>
+  </div>
+</div>
+
+<!-- Project -->
+<div class="row">
+  <div class="column">
+    <button class="title">
+      Thank you for your interest in this subject. (2017)
+    </button>
+      <img src="assets/thankyou1c.jpg" width="100%">
+      <p>
+
+      </p>
+  </div>
+
+<!-- Project -->
+  <div class="column">
+    <button class="title">
+      The Download (2015&ndash;18)
+    </button>
+      <img src="assets/download1c.jpg" width="100%">
+      <p>
+
+      </p>
+  </div>
+</div>
+
+<!-- Project -->
+<div class="row">
+  <div class="column">
+    <button class="title">
+      LotPW: Collected Works 2013&ndash;2017 (2017)
+    </button>
+      <img src="assets/lotpwbook1c.jpg" width="100%">
+      <p>
+
+      </p>
+  </div>
+
+<!-- Project -->
+  <div class="column">
+    <button class="title">
+      Library of the Printed Web (2013)
+    </button>
+      <img src="assets/lotpw1c.jpg" width="100%">
+      <p>
+
+      </p>
+  </div>
+</div>
+
+<!-- Project -->
+<div class="row">
+  <div class="column">
+    <button class="title">
+      Printed Web #5: Bot Anthologia (2017)
+    </button>
+      <img src="assets/pw5-2c.jpg" width="100%">
+      <p>
+
+      </p>
+  </div>
+
+<!-- Project -->
+  <div class="column">
+    <button class="title">
+      Printed Web #4: Public, Private, Secret (2016)
+    </button>
+      <img src="assets/pw4-1c.jpg" width="100%">
+      <p>
+
+      </p>
+  </div>
+</div>
+
+<!-- Project -->
+<div class="row">
+  <div class="column">
+    <button class="title">
+      Printed Web #3 (2015)
+    </button>
+      <img src="assets/pw3-1c.jpg" width="100%">
+      <p>
+
+      </p>
+  </div>
+
+<!-- Project -->
+  <div class="column">
+    <button class="title">
+      Printed Web #2 (2014)
+    </button>
+      <img src="assets/pw2-1c.jpg" width="100%">
+      <p>
+
+      </p>
+  </div>
+</div>
+
+<!-- Project -->
+<div class="row">
+    <button class="title">
+      Printed Web #1 (2014)
+    </button>
+      <img src="assets/pw1-1c.jpg" width="100%">
+      <p>
+
+      </p>
+</div>
+
+<!-- Project -->
+<div class="row">
+    <button class="title">
+      Printed Web Editions
+    </button>
+<div class="row">
+  <div class="column">
+      <img src="assets/sorry1c.jpg" width="100%">
+      <img src="assets/rr1c.jpg" width="100%">
+      <p>
+
+      </p>
+  </div>
+  <div class="column">
+      <img src="assets/molly1c.jpg" width="100%">
+      <img src="assets/cv1c.jpg" width="100%">
+      <p>
+
+      </p>
+  </div>
+</div>
+</div>
+
+<!-- Project -->
+<div class="row">
+  <div class="column">
+    <button class="title">
+      Prompts for 24-Hour Light, with Sal Randolph (2017)
+    </button>
+      <img src="assets/prompts1c.jpg" width="100%">
+      <p>
+
+      </p>
+  </div>
+
+<!-- Project -->
+  <div class="column">
+    <button class="title">
+      Eva_script (2016)
+    </button>
+      <img src="assets/script2c.jpg" width="100%">
+      <p>
+
+      </p>
+  </div>
+</div>
+
+<!-- Project -->
+<div class="row">
+  <div class="column">
+    <button class="title">
+      LaRossa Mix (2014)
+    </button>
+      <img src="assets/larossa1c.jpg" width="100%">
+      <p>
+
+      </p>
+</div>
+
+<!-- Project -->
+  <div class="column">
+    <button class="title">
+      ABCEUM (2014)
+    </button>
+      <img src="assets/abceum1c.jpg" width="100%">
+      <p>
+
+      </p>
+  </div>
+</div>
+
+<!-- Project -->
+<div class="row">
+    <button class="title">
+      Portlander (2014)
+    </button>
+<div class="row">
+  <div class="column">
+      <img src="assets/portlander1c.jpg" width="100%">
+      <img src="assets/portlander3c.jpg" width="100%">
+      <p>
+
+      </p>
+  </div>
+  <div class="column">
+      <img src="assets/portlander4c.jpg" width="100%">
+      <img src="assets/portlander2c.jpg" width="100%">
+      <p>
+
+      </p>
+  </div>
+</div>
+
+<!-- Project -->
+<div class="row">
+  <div class="column">
+    <button class="title">
+      Untitled (This one was for outlaws) (2014)
+    </button>
+      <img src="assets/untitled2c.jpg" width="100%">
+      <p>
+
+      </p>
+  </div>
+
+<!-- Project -->
+  <div class="column">
+    <button class="title">
+      530 (S&aacute; veldur sem &aacute; heldur) (2013)
+    </button>
+      <img src="assets/530-1c.jpg" width="100%">
+      <p>
+
+      </p>
+  </div>
+</div>
+
+<!-- Project -->
+<div class="row">
+  <div class="column">
+    <button class="title">
+      Las Meninas (2013)
+    </button>
+      <img src="assets/meninas1c.jpg" width="100%">
+      <p>
+
+      </p>
+  </div>
+
+<!-- Project -->
+  <div class="column">
+    <button class="title">
+      Chancebooks (2013)
+    </button>
+      <img src="assets/chance1c.jpg" width="100%">
+      <p>
+
+      </p>
+  </div>
+</div>
+
+<!-- Project -->
+<div class="row">
+  <div class="column">
+    <button class="title">
+      Apparition of a distance, however near it may be (2013)
+    </button>
+      <img src="assets/apparition1c.jpg" width="100%">
+      <p>
+
+      </p>
+  </div>
+
+<!-- Project -->
+  <div class="column">
+    <button class="title">
+      Stripped (Sixty-Six Sunsets Stripped) (2012)
+    </button>
+      <img src="assets/stripped1c.jpg" width="100%">
+      <p>
+
+      </p>
+  </div>
+</div>
+
+<!-- Project -->
+<div>
+    <button class="title">
+      <em>Weymouths</em> (2012)
+    </button>
+
+      <img src="assets/weymouths2c.jpg" width="100%">
+      <p>
+
+      </p>
+  </div>
+  <div class="row">
+    <div class="column">
+      <img src="assets/weymouths11c.jpg" width="100%">
+    </div>
+    <div class="column">
+      <img src="assets/weymouths10c.jpg" width="100%">      
+    </div>
+  </div>
+
+<!-- Project -->
+<div class="row">
+    <button class="title">
+      Stetson (2012)
+    </button>
+      <img src="assets/weymouths12c.jpg" width="100%">
+      <p>
+
+      </p>
+</div>
+
+<!-- Project -->
+<div class="row">
+  <div class="column">
+    <button class="title">
+      273 Relics for John Cage (2011)
+    </button>
+      <img src="assets/cage1c.jpg" width="100%">
+      <p>
+
+      </p>
+  </div>
+
+<!-- Project -->
+  <div class="column">
+    <button class="title">
+      Memory Palace (2011)
+    </button>
+      <img src="assets/memory2c.jpg" width="100%">
+      <p>
+
+      </p>
+  </div>
+</div>
 <br>
 <br>
+</div>
+</div>
 
-		<h4 style="text-align: left; line-height: 1.25em"> 
-		<p class="colorblock7">
-			Writing
-			<br>
-			<br>
-			<a href="https://docs.google.com/document/d/e/2PACX-1vS2kKmVmVbo8gIeTYVJ48yLBGUyp-xLgIFxQLIwoCL1J9XOaIAUXJV6xOkB8ZMyUdxD6uZQJCojVe7j/pub" target="_blank">Survival by Sharing</a> (2023)
-			<br>	
-			<a href="https://quod.lib.umich.edu/j/jcms/images/14_62.4soulellis.pdf" target="_blank">Bad Archives (Journal of Cinema and Media Studies, 62.4 Summer 2023)</a> (2023)
-			<br>	
-			<a href="https://gd.artun.ee/dearfriend/uploads/dear_friend_34_paul_soulellis.pdf" target="_blank">Dear Friend</a> (2022)
-			<br>	
-			<a href="https://soulellis.com/writing/badarchives/" target="_blank">Bad Archives (talk)</a> (2022)
-			<br>
-			<a href="https://www.dropbox.com/s/t9feky64kn3lyk8/QAW%2Bstmnt.pdf?dl=0" target="_blank">unfinished</a> (2022)
-			<br>
-			<a href="https://soulellis.com/writing/tdc2021/" target="_blank">What is queer typography?</a> (2021)
-			<br>
-			<a href="https://soulellis.com/writing/feb2021/" target="_blank">Urgent Publishing After the Artist&rsquo;s Book</a> (2021)
-			<br>
-			<a href="https://soulellis.com/writing/post-documenta/index.html" target="_blank">Urgentcraft: Radical Publishing During Crisis</a> (2021)
-			<br>
-			<a href="https://soulellis.com/writing/urgentcraft3/index.html" target="_blank">Urgentcraft (July 30, 2020)</a>
-			<br>
-			<a href="https://soulellis.com/writing/urgentcraft2/" target="_blank">Urgentcraft (April 27, 2020)</a>
-			<br>
-			<a href="https://thecreativeindependent.com/essays/on-the-power-of-mutual-aid-publishing-during-crisis/" target="_blank">On the power of mutual aid publishing during crisis</a> (2020)
-			<br>
-			<a href="https://www.dropbox.com/s/yvape3m0dk278q3/The_Post_As_Medium_Paul_Soulellis.pdf?dl=0" target="_blank">The Post as Medium</a> (2019)
-			<br>
-			<a href="https://soulellis.com/writing/feedtime/index.html" target="_blank">Feed Time</a> (2019)
-			<br>
-			<a href="http://blog.archive.org/2019/01/25/queer-archive-work-2-1923-internet-archive-edition/" target="_blank">Queer.Archive.Work #2, 1923 Internet Archive Edition</a> (2019)
-			<br>
-			<a href="https://docs.google.com/document/d/1MMTiEsUejxj0rtDKrL5dso7pW2kBHXeJt6viS9xtaW8/edit" target="_blank">At Home in the Archive</a> (2019)
-			<br>
-			<a href="https://soulellis.com/writing/oct2018/index.html" target="_blank">Publishing as practice as resistance</a> (2018)
-			<br>
-			<a href="https://soulellis.com/writing/nov2017/" target="_blank">Performing the Feed</a> (2017)
-			<br>
-			<a href="https://soulellis.com/writing/aug2017/" target="_blank">Urgent Archives</a> (2017)
-			<br>
-			<a href="https://docs.google.com/document/d/1IwnYurdZ_TqUZXdxM3zIXFHmJ0-iXUKc9V5BRir3jSw/edit" target="_blank">Carrying, embeddedness, printedness. Window-into-the-page. A grand assembling.</a> (2016)
-			<br>	
-			<a href="https://rhizome.org/editorial/2016/feb/16/morehshin-allahyari/" target="_blank">The Distributed Monument</a> (2016)
-			<br>
-			<a href="https://rhizome.org/editorial/2015/nov/12/the-download/" target="_blank">The Download: sorry to dump on you like this.zip</a> (2015)
-			<br>
-			<a href="https://docs.google.com/document/d/1-yrTRf2-HjV8WNoQttAeJ9ObIjWjv0w2LITDXzGPFtw/edit?usp=sharing" target="_blank">Making Public</a> (2015)
-			<br>
-			<a href="https://rhizome.org/editorial/2015/mar/18/digital-publishing-unzipped/" target="_blank">Digital Publishing, Unzipped</a> (2015)
-			<br>
-			<a href="https://hyperallergic.com/165803/performing-publishing-infrathin-tales-from-the-printed-web/" target="_blank">Performing Publishing: Infrathin Tales from the Printed Web</a> (2014)
-			<br>
-			<a href="https://soulellis.com/2013/05/search-compile-publish/" target="_blank">Search, compile, publish</a> (2013)
 
-		</p>
-	</div></h4>
 
-<br>	
-<br>
+
+
+<!-- Tab content PARIS -->
+<div id="Paris" class="tabcontent"> 
+
+<!-- Writing -->
+  
+  <div class="row">
+
+    <div class="column">
+      <button class="title">
+          Survival by Sharing (2023)
+      </button>
+        <p>
+            <a href="https://docs.google.com/document/d/e/2PACX-1vS2kKmVmVbo8gIeTYVJ48yLBGUyp-xLgIFxQLIwoCL1J9XOaIAUXJV6xOkB8ZMyUdxD6uZQJCojVe7j/pub" target="_blank">&ldquo;Survival by Sharing&rdquo;</a> describes moments of tenderness and generosity in queer publishing, written as a series of scenes, non-chronologically. It&rsquo;s a cinematic timeline, told in queer time. The piece was originally commissioned as a talk for the Korean Society of Typography, delivered on June 17, 2023 at their conference &ldquo;Publishing as Worldview,&rdquo; in Seoul, Republic of Korea. It was then published in the book <em>LetterSeed 24 New Season: Publishing as a Worldview</em> in September 2023. I also published the text as an edition of 50 zines, which were distributed in Seoul. Another edition of 50 was re-printed and distributed freely at Printed Matter&rsquo;s Sunday Zine Fair at The Brooklyn Museum on November 19, 2023. 
+       </p>
+         <br>  
+           <p>             <a href="https://docs.google.com/document/d/e/2PACX-1vS2kKmVmVbo8gIeTYVJ48yLBGUyp-xLgIFxQLIwoCL1J9XOaIAUXJV6xOkB8ZMyUdxD6uZQJCojVe7j/pub" target="_blank">Read &ldquo;Survival by Sharing&rdquo; &#x2192;</a>
+        </p>
+      </div>
+    <div class="column">
+          <img src="assets/survival5c.jpg" width="100%">
+    </div>        
+    </div>  
 
 
 <div class="row">
-  <div class="column4">
-		<a href="https://queer.archive.work" target="_blank"><img src="space6.jpg"></a>
-		<a href="https://soulellis.com/work/urgentcraft/index.html" target="_blank"><img src="uc1.jpg"></a>
-		<a href="https://soulellis.com/work/urgencyreader/index.html" target="_blank"><img src="reader5.jpg"></a>
-		<a href="https://soulellis.com/work/urgencycookbook/index.html" target="_blank"><img src="UC4.jpg"></a>
-		<a href="https://soulellis.com/writing/index.html" target="_blank"><img src="writing14.jpg"></a>
-  </div>
-  <div class="column4">
-		<a href="https://soulellis.com/work/lotpw_book/index.html" target="_blank"><img src="lotpw_book4.jpg"></a>
-		<a href="https://queer.archive.work/3/index.html" target="_blank"><img src="QAW3_7.jpg"></a>
-		<a href="https://queer.archive.work/2/index.html" target="_blank"><img src="QAW2_install5.jpg"></a>
-		<a href="https://queer.archive.work/1/index.html" target="_blank"><img src="qaw3b.jpg"></a>
-  </div>
-</div>
 
-<!------------ CREATIVE COMMONS ------------------------------------->
+    <div class="column">
+      <button class="title">
+          Bad Archives (2023)
+      </button>
+        <p>
+            <a href="https://quod.lib.umich.edu/j/jcms/images/14_62.4soulellis.pdf" target="_blank">&ldquo;Bad Archives&rdquo;</a> was published in <a href="https://quod.lib.umich.edu/j/jcms/" target="_blank"><em>Journal of Cinema and Media Studies</em></a> 62, no. 4 (Summer 2023): 181&ndash;187. It was my contribution to &ldquo;In Focus: Media Studies beyond Media Studies,&rdquo; a special section guest edited by Shannon Mattern. The piece was originally written as <a href="https://soulellis.com/writing/badarchives/" target="_blank">a talk</a> for &ldquo;Archiving in the Age of (Im)permanence,&rdquo; presented at the John Nicholas Brown Center for Public Humanities and Cultural Heritage at Brown University on April 18, 2022.
+       </p>
+         <br>  
+           <p>             <a href="https://quod.lib.umich.edu/j/jcms/images/14_62.4soulellis.pdf" target="_blank">Read &ldquo;Bad Archives&rdquo; [PDF] &#x2192;</a>
+        </p>
+      </div>
+    <div class="column">
+              <img src="assets/badarchives2c.jpg" width="65%">
+
+    </div>        
+    </div>  
+
+  <div class="row">
+
+    <div class="column">
+      <button class="title">
+            Dear Friend (2022)
+      </button>
+        <p>
+            <em>Dear Friend</em> (2019&ndash;2022) was a monthly snail-mail project initiated by Sandra Nuut and Ott Kagovere at the Graphic Design Department of the Estonian Academy of Arts. The publication began as an edition of 100 and later 200 letters each month, which were riso-printed and hand-folded in a collaborative manner. Half of the edition was distributed locally and another half globally, traveling to design institutions, schools, and professionals. My contribution describes the making of <em>resting reader</em> and includes a QR code link to download a PDF of the publication, and was sent out as volume 34 in February 2022. Later in 2022 the entire project was documented in the book <a href="https://lugemik.ee/Dear-Friend-Catalogue" target="_blank"><em>Dear Friend Catalogue</em></a>, published by Lugemik.
+       </p>
+         <br>  
+           <p>             <a href="https://www.dropbox.com/scl/fi/2tzt5p0nx9bomtiz5vvwm/dear_friend_34_paul_soulellis.pdf?rlkey=xcaytb2b19h6niqt8g9qd2qho&dl=0" target="_blank">Read &ldquo;Dear Friend&rdquo; [PDF] &#x2192;</a>          
+        </p>
+      </div>
+    <div class="column">
+    
+              <img src="assets/dearfriend1c.jpg" width="100%">
+
+    </div>        
+    </div> 
+
+
+  <div class="row">
+
+    <div class="column">
+      <button class="title">
+      Dear Sal (2022)
+      </button>
+        <p>
+            <a href="https://www.salrandolph.com/the-uses-of-art"><em>The Uses of Art</em></a> is a book by Sal Randolph, published by dispersed holdings. The work is a memoir of transformative encounters with art, asking what it would mean to make use of art in the way we make free and personal use of music and literature. Sal invited me to contribute the foreword to the book, which I wrote in the form of a letter to Sal. The book launched in 2022. 
+       </p>
+         <br>  
+           <p>             <a href="https://www.dropbox.com/scl/fi/xudub4oehlrth9stwo26q/Dear-Sal.pdf?rlkey=wufvkol5rhlp0re615ix18yal&dl=0" target="_blank">Read &ldquo;Dear Sal&rdquo; [PDF] &#x2192;</a>          
+        </p>
+
+      </div>
+    <div class="column">
+                  <img src="assets/uses1c.jpg" width="50%">
+
+    </div>        
+    </div> 
+
+
+
+
+
+  <div class="row">
+
+    <div class="column">
+      <button class="title">
+      unfinished (2022)
+      </button>
+        <p>
+            <a href="https://www.dropbox.com/s/t9feky64kn3lyk8/QAW%2Bstmnt.pdf?dl=0" target="_blank">&ldquo;unfinished&rdquo;</a> was a curatorial statement that I wrote for <a href="https://www.printcenternewyork.org/past-exhibitions/2021/9/21/lonely-hearts-new-prints-2021summer-hm8sk-hfzw9" target="_blank">New Prints 2022/Winter</a> at Print Center New York (formerly International Print Center of New York), an exhibition that I co-curated with David Kim and Nafis M. White. The statement described our approach, which included &ldquo;actual works-in-progress, abandoned work, failed work, and work that is simply unfinished due to the myriad aspects and conditions artists experience while living and working during crisis&mdash;the radical turbulence of racial injustice, police brutality, class inequity, global pandemic, and climate emergency.&rdquo;
+       </p>
+         <br>  
+           <p>             <a href="https://www.dropbox.com/s/t9feky64kn3lyk8/QAW%2Bstmnt.pdf?dl=0" target="_blank">Read &ldquo;unfinished&rdquo; [PDF] &#x2192;</a>          
+        </p>
+      </div>
+    <div class="column">
+                  <img src="assets/unfinished1c.jpg" width="65%">
+
+    </div>        
+    </div> 
+
+
+  <div class="row">
+
+    <div class="column">
+      <button class="title">
+      What is queer typography? (2021)
+      </button>
+        <p>
+         <a href="https://soulellis.com/writing/tdc2021/" target="_blank">&ldquo;What is queer typography?&rdquo;</a> was written as a talk that I was invited to deliver at the Type Drives Communities Conference, hosted by the Type Directors Club. I researched and wrote the talk as an investigation into the roles of illegibility, agitation, and failure in typography, with the title&rsquo;s alluring question guiding an inquiry into larger practices of &ldquo;unlearning&rdquo; in art and design education. I later published the text in a zine that I designed and printed at Queer.Archive.Work, in Providence, RI. I distributed the edition through the mail during the COVID-19 pandemic, and made scans of the zine available online. This piece of writing and the ideas explored here are one of my most referenced works. The entire zine was translated into Korean and re-published by In-ah Shin. The essay has been re-published by GenderFail Press in <a href="https://printedmatter-linkedbyair.herokuapp.com/catalog/59728/" target="_blank"><em>Anthology of Queer Typography Vol. 1</em></a>  and also appears in Pouya Ahmadi&rsquo;s <a href="https://i-n-g-a.com/products/amalgam-4" target="_blank"><em>Amalgam 4</em></a>. <a href="https://www.printmag.com/designer-interviews/what-is-queer-typography/" target="_blank">An interview with me</a> about the zine was published in <em>PRINT Magazine</em> in August 2021.  
+       </p>
+         <br>  
+           <p>             <a href="https://soulellis.com/writing/tdc2021/" target="_blank">Read &ldquo;What is queer typography?&rdquo; &#x2192;</a>          
+        </p>
+      </div>
+    <div class="column">
+         <img src="assets/queertype4c.jpg" width="90%"> 
+    </div>        
+    </div> 
+
+
+<div class="row">
+
+    <div class="column">
+      <button class="title">
+      Urgentcraft: Radical Publishing During Crisis (2021)
+      </button>
+        <p>
+       <a href="https://soulellis.com/writing/post-documenta/index.html" target="_blank">This piece</a> was commissioned by <a href="https://postdocumenta.net/" target="_blank"><em>post documenta: contemporary arts as territorial agencies,</em></a> a collaboration between the Academy of Fine Arts Leipzig, Germany and the Athens School of Fine Arts, Greece. Here, I adapted my previous Urgentcraft writings into a longer work, structured as a &ldquo;narrative syllabus in 19 parts.&rdquo; It was also delivered as an online talk on February 9, 2021.
+       </p>
+         <br>  
+           <p>             <a href="https://soulellis.com/writing/post-documenta/index.html" target="_blank">Read &ldquo;Urgentcraft: Radical Publishing During Crisis&rdquo; &#x2192;</a>        </p>
+      </div>
+    <div class="column">
+             <img src="assets/urgentcraft1c.jpg" width="70%"> 
+    </div>        
+    </div> 
+
+
+
+
+  <div class="row">
+
+    <div class="column">
+      <button class="title">
+      Urgent Publishing After the Artist&rsquo;s Book (2021)
+      </button>
+        <p>
+         <a href="https://soulellis.com/writing/feb2021/" target="_blank">This talk</a> was delivered online at the Contemporary Artists&rsquo; Book Conference, hosted by the Center for Book Arts at Printed Matter&rsquo;s Virtual Art Book Fair, February 27, 2021. While I was giving the talk (which can be viewed <a href="https://centerforbookarts.org/cabc/urgent-publishing-after-the-artists-book-making-public-in-movements-towards-liberation" target="_blank">here</a>), Be Oakley of GenderFail Press texted me and asked if they could publish the talk as a book. Within days, Be had designed and published <a href="https://genderfailproject.square.site/product/urgent-publishing-after-the-artist-s-book-making-public-in-movements-towards-liberation-by-paul-soulellis/141" target="_blank">GenderFail&rsquo;s book version,</a> an edition of 200 that sold widely and continues to circulate. I also delivered the talk at The Centre for Postdigital Cultures, Coventry University, England, on June 11, 2021, for the <a href="https://www.post-publishing.org/2021/05/14/experimental-publishing-iv-critique-intervention-and-speculation/" target="_blank">Experimental Publishing IV&mdash;Critique, Intervention, and Speculation Symposium.</a> The text was later published by Apria Journal in the Netherlands in March 2021, and can be read online <a href="https://apria.artez.nl/urgent-publishing-after-the-artists-book" target="_blank">here.</a> 
+       </p>
+         <br>  
+           <p> <a href="https://soulellis.com/writing/feb2021/" target="_blank">Read &ldquo;Urgent Publishing After the Artists&rsquo; Book&rdquo; &#x2192;</a>          
+        </p>
+      </div>
+    <div class="column">
+             <img src="assets/after2c.jpg" width="60%">    
+    </div>        
+    </div> 
+
+
+
+ <div class="row">
+
+    <div class="column">
+      <button class="title">
+      Reading Now (2020)
+      </button>
+        <p>
+          I was invited to contribute to <a href="https://www.dispersedholdings.net/reading-now" target="_blank"><em>Reading Now,</em></a> a book published by dispersed holdings, edited by Sal Randolph and David Richardson. My piece, titled &ldquo;Reading Now,&rdquo; was a chance-determined poem culled from Twitter posts containing the words &ldquo;reading now.&rdquo; The designer of the book interspersed the lines of my poem with a list of works that the book&rsquo;s contributors had been reading. Contributors: Kyla Arsadjaja, D. Graham Burnett, Michael Cunningham, Jeff Dolven, Alan Huck, Alyssa Loh, Joshua Mathews, John Muse, Leonard Nalencz, The Nooy-Millers, Sal Randolph, David Richardson, Luc Rioual, Paul Soulellis, Hermione Spriggs, Sofia Theodore-Pierce, and Nicholas Weltyk. It launched at Printed Matter&rsquo;s Virtual Art Book Fair on February 24, 2021.
+        </p>
+      </div>
+    <div class="column">
+                 <img src="assets/readingnow1c.jpg" width="100%">    
+    </div>        
+    </div> 
+
+
+
+
+
+ <div class="row">
+
+    <div class="column">
+      <button class="title">
+      On the power of mutual aid publishing during crisis (2020)
+      </button>
+        <p>
+          The Creative Independent published a version of my Urgentcraft text in June 2020, at the height of the initial COVID-19 pandemic. This version includes a very direct &ldquo;call to action&rdquo; at the end:
+        </p>
+          <blockquote><em>We&rsquo;re faced with a kind of doom right now that sometimes feels like the end of the story. So here&rsquo;s what you can do, in your own work, whether it be art, design, or otherwise: Use what you have, whatever is right in front of you. Don&rsquo;t wait for the next wave of crisis. Fortify your networks now, so that when another flashpoint happens you&rsquo;re prepared to connect, to call, and to respond, to gather, and to be in it together, whatever that means to you. Map your needs. Map your assets. What are your resources? How will you share your abundance? Be generous in how, what, and with whom you share, because in these moments of exchange, communities form. Use the urgentcraft principles, re-shape them, add to them, share them. If nothing else, keep them around, as a reminder that art and design can be used to loosen power.</em></blockquote>
+         <p><a href="https://thecreativeindependent.com/essays/on-the-power-of-mutual-aid-publishing-during-crisis/" target="_blank">Read &ldquo;On the power of mutual aid publishing during crisis&rdquo; &#x2192;</a> 
+        </p>
+      </div>
+    <div class="column">
+                 <img src="assets/power1c.jpg" width="95%">    
+    </div>        
+    </div> 
+
+
+
+
+  <div class="row">
+
+    <div class="column">
+      <button class="title">
+      Urgentcraft (2019&ndash;2020)
+      </button>
+        <p>
+          In 2019 I was invited to deliver talks at both the Eyeo Festival in Minneapolis (in June) and <a href="https://2019.theconference.se/" target="_blank">The Conference</a> in Malm&ouml;, Sweden (in August) for which I wrote &ldquo;Urgentcraft&rdquo; [<a href="https://vimeo.com/354276810" target="_blank">watch the video here</a>]. I spoke about mutual aid publishing during crisis, urgent artifacts, and how art and design can loosen power. A zine version of that text <a href="https://www.dropbox.com/s/1f6k4zd3zechozs/UC_5.pdf?dl=0" target="_blank">can be found here</a>, which was distributed as part of Queer.Archive.Work #3. In 2020, during the initial COVID-19 pandemic, I was invited to give talks on a regular basis, and I reworked the Urgentcraft talk repeatedly to account for the changing conditions. <a href="https://soulellis.com/writing/urgentcraft2/" target="_blank">This version</a> was written for Otis College of Art and Design on April 27, 2020, and <a href="https://soulellis.com/writing/urgentcraft3/index.html" target="_blank">this version</a> was written for a talk hosted by Wendy&rsquo;s Subway on the occasion of their online residency with the Libby Leshgold Gallery and READ Books, at Emily Carr University of Art and Design in Vancouver, Canada. In each case I delivered the talk using a hand-coded web page that contained the entire text, images, and links, which was then available to circulate as a URL to the attendees for reference later. Urgentcraft graphic by Jack Fahnestock >>  
+          </p>
+          <br>
+                   <p><a href="https://www.dropbox.com/s/1f6k4zd3zechozs/UC_5.pdf?dl=0" target="_blank">Read &ldquo;Urgentcraft&rdquo; (zine version) &#x2192;</a> 
+
+        </p>
+      </div>
+    <div class="column">
+          <img src="assets/eyeo1c.jpg" width="100%">    
+    </div>        
+    </div> 
+
+
+<div class="row">
+
+    <div class="column">
+      <button class="title">
+      Feed Time (2019)
+      </button>
+        <p>
+         <a href="https://soulellis.com/writing/feedtime/index.html" target="_blank">&ldquo;Feed Time&rdquo;</a> was commissioned by <a href="https://v-a-c.org/" target="_blank">V-A-C Zattere (Venice)</a> and published in 2019 in <a href="https://www.penguinrandomhouse.com/books/612442/time-forward-by-omar-kholeif/" target="_blank"><em>Time, Forward!,</em></a> an exhibition catalogue edited by Omar Kholeif. My thinking around the feed as a contemporary form in network culture began with <a href="https://www.dropbox.com/s/87357zg9g61rtm7/Notes-on-Feeds.pdf?dl=0" target="_blank">&ldquo;Notes on Feeds&rdquo;</a> in April 2017 and <a href="https://soulellis.com/writing/nov2017/" target="_blank">&ldquo;Performing the Feed&rdquo;</a> in November 2017, continued in <a href="https://www.dropbox.com/s/yvape3m0dk278q3/The_Post_As_Medium_Paul_Soulellis.pdf?dl=0" target="_blank">&ldquo;The Post As Medium&rdquo;</a> for <a href="https://www.artbook.com/9780692173084.html" target="_blank"><em>Net Art Anthology,</em></a> and concludes (for now) with &ldquo;Feed Time.&rdquo; Together, these essays propose ideas about the evolution of media consumption in relation to narrative, publishing, platform politics, and surveillance capitalism.
+       </p>
+         <br>  
+           <p>          <a href="https://soulellis.com/writing/feedtime/index.html" target="_blank">Read &ldquo;Feed Time&rsquo; &#x2192;</a> 
+        </p>
+      </div>
+    <div class="column">
+              <img src="assets/feedtime1c.jpg" width="65%">    
+
+    </div>        
+    </div> 
+
+
+
+  <div class="row">
+
+    <div class="column">
+      <button class="title">
+      The Post as Medium (2019)
+      </button>
+        <p>
+         <a href="https://www.dropbox.com/s/yvape3m0dk278q3/The_Post_As_Medium_Paul_Soulellis.pdf?dl=0" target="_blank">&ldquo;The Post As Medium&rdquo;</a> is a long-form essay commissioned for Rhizome&rsquo;s <a href="https://www.artbook.com/9780692173084.html" target="_blank"><em>The Art Happens Here: Net Art Anthology,</em></a> a book edited by Michael Connor and Aria Dean. In this piece I continued my research into the post as a crucial form for understanding the evolution of modern network culture, from the Community Memory computer bulletin board of the early 1970s to artists who work with feeds in the 2000s, like Rafia Santana and Constant Dullaart.  
+       </p>
+         <br>  
+           <p>          <a href="https://www.dropbox.com/s/yvape3m0dk278q3/The_Post_As_Medium_Paul_Soulellis.pdf?dl=0" target="_blank">Read &ldquo;The Post as Medium&rsquo; &#x2192;</a> 
+        </p>
+      </div>
+    <div class="column">
+                  <img src="assets/post1c.jpg" width="100%">    
+    </div>        
+    </div> 
+
+
+<div class="row">
+
+    <div class="column">
+      <button class="title">
+      At Home in the Archive (2019)
+      </button>
+        <p>
+         <a href="https://docs.google.com/document/d/1MMTiEsUejxj0rtDKrL5dso7pW2kBHXeJt6viS9xtaW8/edit" target="_blank">&ldquo;At Home in the Archive&rdquo;</a> appeared in <a href="https://www.icp.org/events/queering-the-collection-conversation-and-book-launch" target="_blank"><em>Queering the Collection</em></a> (Be Oakley, Christopher Clary, Patricia Silva, Emily Dunne, editors), a book published by GenderFail and International Center of Photography in March 2019.
+       </p>
+         <br>  
+           <p>                   <a href="https://docs.google.com/document/d/1MMTiEsUejxj0rtDKrL5dso7pW2kBHXeJt6viS9xtaW8/edit" target="_blank">Read &ldquo;At Home in the Archive&rsquo; &#x2192;</a> 
+        </p>
+      </div>
+    <div class="column">
+              <img src="assets/athome1c.jpg" width="50%">    
+    </div>        
+    </div> 
+
+
+
+  <div class="row">
+
+    <div class="column">
+      <button class="title">
+      Queer.Archive.Work #2, 1923 Internet Archive Edition (2019)
+      </button>
+        <p>
+          <a href="https://blog.archive.org/2019/01/25/queer-archive-work-2-1923-internet-archive-edition/" target="_blank">This text</a> was originally written as a brief talk given at the Internet Archive&rsquo;s &ldquo;Grand Re-opening of the Public Domain&rdquo; on January 25, 2019, co-hosted by Creative Commons. It was later published on the Internet Archive&rsquo;s blog. The piece reflects my time at the Internet Archive for an artist&rsquo;s residency, our collective responsibility to perform archival justice, and the making of the second issue of Queer.Archive.Work, which I published and distributed for this event.
+       </p>
+         <br>  
+           <p>             <a href="https://blog.archive.org/2019/01/25/queer-archive-work-2-1923-internet-archive-edition/" target="_blank">Read &ldquo;Queer.Archive.Work #2, 1923 Internet Archive Edition&rsquo; &#x2192;</a> 
+        </p>
+      </div>
+    <div class="column">
+                  <img src="assets/qaw2-3c.jpg" width="80%">    
+    </div>        
+    </div> 
+
+
+<div class="row">
+
+    <div class="column">
+      <button class="title">
+      Publishing as practice as resistance (2018)
+      </button>
+        <p>
+          Different versions of <a href="https://soulellis.com/writing/oct2018/index.html" target="_blank">this text</a> were delivered as talks at the Boston Art Book Fair (October 13, 2018), Boston University (November 13, 2018), California College of the Arts (January 24, 2019), Parsons School of Design (March 25, 2019), and Stevens Institute of Technology (March 26, 2019).
+       </p>
+         <br>  
+           <p>             <a href="https://soulellis.com/writing/oct2018/index.html" target="_blank">Read &ldquo;Publishing as practice as resistance&rdquo; &#x2192;</a> 
+        </p>
+      </div>
+    <div class="column">
+                   <img src="assets/resistance2c.jpg" width="65%">    
+   </div>        
+    </div> 
+
+
+
+  <div class="row">
+
+    <div class="column">
+      <button class="title">
+      Performing the Feed (2017)
+      </button>
+        <p>
+          When I was invited by Sam Hart, Melanie Hoff and Francis Tseng to speak at the Cybernetics Conference in NYC on November 18, 2017, I decided to continue my thinking around network culture and the phenomenon of the feed, which I had begun earlier with <a href="https://www.dropbox.com/s/87357zg9g61rtm7/Notes-on-Feeds.pdf?dl=0" target="_blank">&ldquo;Notes on Feeds.&rdquo;</a> <a href="https://livestream.com/internetsociety2/cybercon" target="_blank">The entire conference livestream is available here.</a> This piece was later published by Rhizome in its Seven on Seven 10th Anniversary Magazine <a href="https://www.dropbox.com/s/6i2wxlrhgwo389v/whats_to_be_done.pdf?dl=0" target="_blank"><em>What&rsquo;s To Be Done?</em></a> in May 2018, edited by Nora Khan.           
+        </p>
+         <br>  
+           <p>             <a href="https://soulellis.com/writing/nov2017/" target="_blank">Read &ldquo;Performing the Feed&rsquo; &#x2192;</a> 
+        </p>
+      </div>
+    <div class="column">
+                  <img src="assets/performing1c.jpg" width="100%">    
+    </div>        
+    </div> 
+
+
+  <div class="row">
+
+    <div class="column">
+      <button class="title">
+      Notes on Feeds (2017)
+      </button>
+        <p>
+          &ldquo;Notes on Feeds&rdquo; was a piece that I wrote to accompany <em>Printed Web 5: Bot Anthologia</em>, which launched simultaneously at Interrupt 4 at Brown University, where I delivered the talk, and at Trust and Believe at Eyebeam, in Brooklyn, a one-day event organized by Nora N. Khan and Sam Hart, where the publication was being distributed. This was the first essay where I sketched out ideas about the post and the feed as forms in network culture, which I further developed in subsequent writings. I self-published the essay as a newsprint broadsheet that was distributed along with <em>Printed Web 5</em>.           
+        </p>
+         <br>  
+           <p>             <a href="https://www.dropbox.com/s/87357zg9g61rtm7/Notes-on-Feeds.pdf?dl=0" target="_blank">Read &ldquo;Notes on Feeds&rsquo; [newsprint PDF] &#x2192;</a> 
+        </p>
+      </div>
+    <div class="column">
+                  <img src="assets/notes1c.jpg" width="100%">    
+    </div>        
+    </div> 
+
+
+  <div class="row">
+
+    <div class="column">
+      <button class="title">
+      Occupying Pl&ouml;ger&rsquo;s Library (2017)
+      </button>
+        <p>
+          The artist <a href="https://www.wolfgang-ploeger.com/" target="_blank">Wolfgang Pl&ouml;ger</a> invited me to write an essay to appear in the exhibition catalogue for <em>Inherited Lies</em>, his solo show at Konrad Fischer Galerie in D&uuml;sseldorf, Germany in 2017. In it, I write about Pl&ouml;ger as &ldquo;the original printed web artist,&rdquo; and about the politics of his chosen form, the internet search engine. <a href="https://www.artforum.com/events/wolfgang-ploger-2-230206/" target="_blank">The exhibition was reviewed in Artforum, May 2017, citing my essay.</a>             
+        </p>
+         <br>  
+           <p>             <a href="https://docs.google.com/document/d/1hH6r8FeQUBiL_II7F_piDpZxBIGF-HqngrMMuMBRQPw/edit" target="_blank">Read &ldquo;Occupying Pl&ouml;ger&rsquo;s Library&rsquo; &#x2192;</a> 
+        </p>
+      </div>
+    <div class="column">
+                  <img src="assets/occupying1c.jpg" width="75%">    
+    </div>        
+    </div> 
+
+  <div class="row">
+
+    <div class="column">
+      <button class="title">
+      Urgent Archives (2017)
+      </button>
+        <p>
+          &ldquo;Urgent Archives&rdquo; was published in <a href="https://aperture.org/books/public-private-secret-on-photography-and-the-configuration-of-self-2/" target="_blank"><em>Public, Private, Secret: On Photography and the Configuration of Self</em></a>, edited by Charlotte Cotton and co-published by Aperture and International Center of Photography (2018). The essay was commissioned for the book on the occasion of <a href="https://www.icp.org/exhibitions/public-private-secret" target="_blank">&ldquo;Public, Private, Secret,&rdquo;</a> an exhibition curated by Cotton at ICP Museum (for which <em>Printed Web #4</em> was created as a special project). This essay also appears in <em>Library of the Printed Web: Collected Works, 2013–2017</em>, the book I published cataloguing the Printed Web project when it was acquired by MoMA Library.           
+        </p>
+         <br>  
+           <p>             <a href="https://soulellis.com/writing/aug2017/" target="_blank">Read &ldquo;Urgent Archives&rsquo; &#x2192;</a> 
+        </p>
+      </div>
+    <div class="column">
+                  <img src="assets/urgent1c.jpg" width="100%">    
+    </div>        
+    </div> 
+
+
+
+  <div class="row">
+
+    <div class="column">
+      <button class="title">
+        Rhizome (2015&ndash;17)      
+      </button>
+        <p>
+          In 2014 I was selected to be in the inaugural cohort at NEW INC at the New Museum, in NYC. For the year, I used NEW INC as my studio, and my desk was located next to the Rhizome editorial team. This was fortuitous; after learning about my work and ongoing conversations about digital art, I began writing for Rhizome, which eventually led to my serving as a Contributing Editor. I wrote a total of 13 pieces during a two-year period. 11 are included here, and 2 others are located elsewhere on this page (The Download: sorry to dump on you like this.zip and Digital Publishing, Unzipped).
+
+        </p>
+         <br>  
+
+           <p>             
+            <a href="https://rhizome.org/editorial/2017/dec/08/rozendaal-the-path-to-abstraction/" target="_blank">Read &ldquo;Rozendaal: The Path to Abstraction (2017)&rsquo; &#x2192;</a> 
+        </p>
+
+           <p>             
+            <a href="https://rhizome.org/editorial/2017/oct/04/merging-with-the-network/" target="_blank">Read &ldquo;Merging with the Network: an interview with Eva and Franco Mattes (2017)&rsquo; &#x2192;</a> 
+        </p>
+
+
+           <p>             
+            <a href="http://rhizome.org/editorial/2017/sep/14/the-download-6-a-desktop-lamentation/" target="_blank">Read &ldquo;The Download 6: A Desktop Lamentation (2017)&rsquo; &#x2192;</a> 
+        </p>
+
+
+           <p>             
+            <a href="http://rhizome.org/editorial/2016/nov/14/the-download-dennis-coopers-gif-novels/" target="_blank">Read &ldquo;The Download 5: Dennis Cooper&rsquo;s GIF Novels (2016)&rsquo; &#x2192;</a> 
+        </p>
+
+           <p>             
+            <a href="http://rhizome.org/editorial/2016/oct/04/the-download-technologies-of-care/" target="_blank">Read &ldquo;The Download 4: Technologies of Care (2016)&rsquo; &#x2192;</a> 
+        </p>
+
+           <p>             
+            <a href="https://rhizome.org/editorial/2016/sep/28/artist-profile-lorna-mills/" target="_blank">Read &ldquo;Artist Profile: Lorna Mills (2016)&rsquo; &#x2192;</a> 
+        </p>
+
+           <p>             
+            <a href="http://rhizome.org/editorial/2016/jul/15/artist-profile-travess-smalley/" target="_blank">Read &ldquo;Artist Profile: Travess Smalley (2016)&rsquo; &#x2192;</a> 
+        </p>
+
+           <p>             
+            <a href="http://rhizome.org/editorial/2016/may/04/incantations-for-the-birth-of-a-network/" target="_blank">Read &ldquo;The Download 3: Incantations for the Birth of a Network (2016)&rsquo; &#x2192;</a> 
+        </p>
+
+           <p>             
+            <a href="https://rhizome.org/editorial/2016/feb/16/morehshin-allahyari/" target="_blank">Read &ldquo;The Download 2: The Distributed Monument (2016)&rsquo; &#x2192;</a> 
+        </p>
+
+           <p>             
+            <a href="http://rhizome.org/editorial/2015/dec/09/space-between-us/" target="_blank">Read &ldquo;After the Hookup, An App (2015)&rsquo; &#x2192;</a> 
+        </p>
+
+           <p>             
+            <a href="https://rhizome.org/editorial/2015/may/18/printed-web-3/" target="_blank">Read &ldquo;Poor Media on Demand: All the files of Printed Web 3 (2015)&rsquo; &#x2192;</a> 
+        </p>
+      </div>
+    <div class="column">
+                  <img src="assets/distributed1c.jpg" width="100%">    
+    </div>        
+    </div> 
+
+
+
+  <div class="row">
+
+    <div class="column">
+      <button class="title">
+      Carrying, embeddedness, printedness. Window-into-the-page. A grand assembling. (2016)
+      </button>
+        <p>
+          For the launch of Morehshin Allahyari and Daniel Rourke&rsquo;s <em>3D Additivist Cookbook</em>, I was invited to speak and participate on <a href="https://www.printedmatter.org/programs/events/544" target="_blank">a panel at Printed Matter on December 2, 2016</a>. Since the editors were releasing the book as a special &ldquo;3D PDF,&rdquo; I used this opportunity to write a short performative talk about the history of the PDF and the qualities of &ldquo;carrying&rdquo; and &ldquo;embeddedness&rdquo; in contemporary publishing&mdash;asking the question: &ldquo;What if the letter carries the pigeon?&rdquo; The book itself &ldquo;is a free compendium of imaginative, provocative works from over 100 world-leading artists, activists and theorists. <em>The 3D Additivist Cookbook</em> contains .obj and .stl files for the 3D printer, as well as critical and fictional texts, templates, recipes, (im)practical designs and methodologies for living in this most contradictory of times.&rdquo; My essay &ldquo;The Distributed Monument&rdquo; is included in the book.
+
+
+        </p>
+         <br>  
+         <p>
+           <a href="https://additivism.org/cookbook" target="_blank">Download <em>The 3D Additivist Cookbook</em> &#x2192;</a>
+         </p>
+           <p>             <a href="https://docs.google.com/document/d/1IwnYurdZ_TqUZXdxM3zIXFHmJ0-iXUKc9V5BRir3jSw/edit" target="_blank">Read &ldquo;      Carrying, embeddedness, printedness. Window-into-the-page. A grand assembling.
+&rsquo; &#x2192;</a> 
+        </p>
+      </div>
+    <div class="column">
+                  <img src="assets/additivist2c.jpg" width="75%">    
+    </div>        
+    </div> 
+
+ 
+
+
+  <div class="row">
+
+    <div class="column">
+      <button class="title">
+      The Download: sorry to dump on you like this.zip (2015)
+      </button>
+        <p>
+          The Download was a series of <a href="https://rhizome.org/" target="_blank">Rhizome</a> artist commissions that considered posted files, the act of downloading, and the user&rsquo;s desktop as the space of exhibition. I curated the series for Rhizome and wrote an accompanying essay for each piece. For <em>sorry to dump on you like this.zip</em> by Christopher Clary, the very first work in the series, my essay serves as both a critical framing of Clary&rsquo;s commission (an archive of digital porn), as well as an introduction to the concept of the series. Clary&rsquo;s piece was included in Hyperallergic&rsquo;s <a href="https://hyperallergic.com/263538/best-of-2015-our-top-10-works-of-internet-art/" target="_blank">&ldquo;Best of 2015: Top 10 Works of Internet Art&rdquo;</a> and my essay was selcted by Artnet News as <a href="https://news.artnet.com/market/must-read-essays-from-november-2015-391832" target="_blank">&ldquo;a must-read art essay.&rdquo;</a>              
+        </p>
+         <br>  
+           <p>             <a href="https://rhizome.org/editorial/2015/nov/12/the-download/" target="_blank">Read &ldquo;The Download: sorry to dump on you like this.zip&rsquo; &#x2192;</a> 
+        </p>
+      </div>
+    <div class="column">
+                  <img src="assets/download2c.jpg" width="100%">    
+    </div>        
+    </div> 
+
+
+  <div class="row">
+
+    <div class="column">
+      <button class="title">
+      Making Public (2015)
+      </button>
+        <p>
+          In 2015, <a href="https://www.lafayetteanticipations.com/en" target="_blank">Fondation Galeries Lafayette</a> held a symposium and workshop in Paris to strategize for the opening of their new headquarters in Le Marais, <a href="https://www.oma.com/projects/fondation-entreprise-galeries-lafayette" target="_blank">designed by OMA</a>. I was invited to participate by leading a workshop and delivering a talk about experimental publishing for the artists, curators, and museum officials who were preparing for the opening of the new building. The talk is organized into four sections&mdash;1 Is posting publishing? 2 Malls, bedrooms and balconies, 3 Designing the place of memory, and 4 Poor media and physical space. Later, these efforts led to the realization of <a href="https://www.lafayetteanticipations.com/fr/latelier-dedition" target="_blank">The Publishing Workshop</a>.
+           
+        </p>
+         <br>  
+           <p>             <a href="https://docs.google.com/document/d/1-yrTRf2-HjV8WNoQttAeJ9ObIjWjv0w2LITDXzGPFtw/edit?usp=sharing" target="_blank">Read &ldquo;Making Public&rsquo; &#x2192;</a> 
+        </p>
+      </div>
+    <div class="column">
+                  <img src="assets/makingpublic1c.jpg" width="80%">    
+    </div>        
+    </div> 
+
+
+  <div class="row">
+
+    <div class="column">
+      <button class="title">
+      Digitial Publishing, Unzipped (2015)
+      </button>
+        <p>
+          This was the very first piece that I wrote for Rhizome; in it, I consider the ZIP file as an art form, through the work of Kristen Gallagher and her piece <a href="https://www.gauss-pdf.com/post/110078760480/gpdf154-kristen-gallagher-dossier-on-the-site" target="_blank"><em>Dossier on the Site of a Shooting (GPDF154)</em></a>, published by <a href="https://www.gauss-pdf.com/" target="_blank">GaussPDF</a>. The ideas in this essay led directly to my curation of The Download series for Rhizome.  
+        </p>
+         <br>  
+           <p>             <a href="https://rhizome.org/editorial/2015/mar/18/digital-publishing-unzipped/" target="_blank">Read &ldquo;Digitial Publishing, Unzipped&rsquo; &#x2192;</a> 
+        </p>
+      </div>
+    <div class="column">
+                  <img src="assets/unzipped1c.jpg" width="75%">    
+    </div>        
+    </div> 
+
+
+  <div class="row">
+
+    <div class="column">
+      <button class="title">
+      Performing Publishing: Infrathin Tales from the Printed Web (2014)
+      </button>
+        <p>
+          Hyperallergic invited me to publish a piece on their site to accompany my presentation at <a href="http://artfcity.com/2014/12/07/hypersalon-a-gem-amongst-the-miami-fairs/" target="_blank">Hypersalon</a>, which took place at Art Basel Miami in December 2014. This essay builds on &ldquo;Search, compile, publish&rdquo; and goes deeper into the concepts I was beginning to explore with Library of the Printed Web. I had just started publishing <em>Printed Web</em> and the essay discusses specific examples of digital art that appear in issues 1 and 2. Soon after, I presented this essay as a talk at <em>Interrupt 3</em>, a literary conference held at Brown University in March 2015.            
+        </p>
+         <br>  
+           <p>             <a href="https://hyperallergic.com/165803/performing-publishing-infrathin-tales-from-the-printed-web/" target="_blank">Read &ldquo;Performing Publishing: Infrathin Tales from the Printed Web&rsquo; &#x2192;</a> 
+        </p>
+      </div>
+    <div class="column">
+                  <img src="assets/infrathin1c.jpg" width="80%">    
+    </div>        
+    </div> 
+
+
+  <div class="row">
+
+    <div class="column">
+      <button class="title">
+      Search, compile, publish (2013)
+      </button>
+        <p>
+          This essay is having a long life. I initially wrote it as a talk that I presented at <a href="http://www.theblogazine.com/2013/06/the-book-affair-at-venice-art-biennale/" target="_blank">The Book Affair</a> in Venice, Italy in May 2013, held on the occasion of the 55th Venice Art Biennale. At that event, which was held outside in the courtyard of the Biblioteca di Castello in San Lorenzo, I displayed examples of artists&rsquo; publications that I had collected for Library of the Printed Web, and described the kinds of methodologies that may have gone into creating them. A few months later, I published the text as a newsprint broadsheet and distributed an edition of 500 copies at Printed Matter&rsquo;s 2013 NY Art Book Fair by leaving them in a pile at the entrance to MoMA PS1; they disappeared within hours.        
+        </p>
+        <p>
+          In June 2016, I updated the essay and delivered it as a talk at the Miss Read art book fair in Berlin, organized by Michalis Pichler. Pichler later included the essay in the first (beta) edition of his book <a href="https://missread.com/publication/publishing-manifestos-beta-version/" target="_blank"><em>Publishing Manifestos</em></a>. When it was <a href="https://missread.com/publication/publishing-manifestos/" target="_blank">re-published by MIT Press</a> in March 2019, my essay was again included.   
+        </p>
+         <br>  
+           <p>             <a href="https://soulellis.com/2013/05/search-compile-publish/" target="_blank">Read &ldquo;Search, compile, publish&rsquo; [original Venice version] &#x2192;</a> 
+        </p>
+           <p>             <a href="https://www.dropbox.com/s/2o6pic68povytaw/lotpw1_lo.pdf?dl=0" target="_blank">Read &ldquo;Search, compile, publish&rsquo; [NY Art Book Fair broadsheet PDF] &#x2192;</a> 
+        </p>
+                   <p>             <a href="https://docs.google.com/document/d/13xw8NrMEfoPf3Vgq3-TYbH_v9Cn1OyWAXJVdDxwtBIY/edit" target="_blank">Read &ldquo;Search, compile, publish&rsquo; [2016 Miss Read update] &#x2192;</a> 
+        </p>
+      </div>
+    <div class="column">
+                  <img src="assets/manifestos1c.jpg" width="100%">    
+    </div>        
+    </div> 
+
+
+
+
+
 
 <br>
-<div align="center">
-<p class="colorblock8" xmlns:dct="http://purl.org/dc/terms/" xmlns:cc="http://creativecommons.org/ns#" class="license-text"><a href="https://soulellis.com">Paul Soulellis</a> <script type="text/javascript">document.write( new Date().getFullYear() );</script>
- / This website is licensed under Creative Commons <a href="https://creativecommons.org/licenses/by-nc-sa/4.0">CC BY-NC-SA 4.0 <img style="height:22px!important;margin-left: 3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" /><img  style="height:22px!important;margin-left: 3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg" /><img  style="height:22px!important;margin-left: 3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg" /><img  style="height:22px!important;margin-left: 3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg" /></a></p>
+<br>
+<br>
+
 </div>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Tab content MONTREAL 
+<div id="Montreal" class="tabcontent"> 
+
+    <button type="button" class="title">
+      News 1
+    </button>
+        <p>
+            News 1
+        </p>      
+        </div>
+      </div>
+
+</div>
+-->
+
+
+
+
+<!-- Tab content PROVIDENCE -->
+<div id="Providence" class="tabcontent">
+
+<!-- About -->
+<div class="row">
+
+    <button class="header">
+      Bios and photos
+    </button>
 <br>
+
+  <div class="column">
+    <button class="title">
+      Brief bio
+    </button>
+      <p>
+          Paul Soulellis is an artist and educator based in Providence, RI. His practice includes teaching, writing, and experimental publishing, with a focus on queer methodologies, network culture, and archival justice. He is the founder of <a href="https://queer.archive.work" target="_blank">Queer.Archive.Work</a>, a non-profit organization that supports artists, writers, and activists with access to space, tools, and other resources for queer publishing. He is also Department Head and Associate Professor of <a href="https://risd.gd/" target="_blank">Graphic Design</a> at <a href="https://www.risd.edu/" target="_blank">Rhode Island School of Design</a>.
+      </p>
+
+    <button class="title">
+      Full bio
+    </button>
+      <p>
+          Paul Soulellis is an American artist, graphic designer, publisher, and educator. He maintains his practice in Providence, Rhode Island. His work includes teaching, writing, and experimental publishing, with a focus on queer methodologies, network culture, and archival justice. His writings and work are cited in scholarly research, and his publications are collected and exhibited worldwide and on the internet. 
+      </p>
+      <p>
+          Soulellis is the founder of <a href="https://queer.archive.work" target="_blank">Queer.Archive.Work</a>, a non-profit organization that joined Binch Press in 2021 to create a 2,000 sq. ft. library, print studio, and residency that supports a growing membership-based community of artists and writers. Binch/QAW has a mission to center Rhode Island-based queer and trans BIPoC voices with access to space and resources for experimental publishing. Studio projects include Open Library Hours, Community Supported Art, and the Queer and Trans Zinefest. 
+      </p>
+      <p>
+          Soulellis is also the founder of Library of the Printed Web, a physical archive devoted to web-to-print artists’ books, zines and other printout matter. The collection of 250 works was acquired by The Museum of Modern Art Library in New York in 2017. Soulellis maintains his own art practice centered on publishing, and his books and zines have featured the work of hundreds of contemporary artists and writers. His work is in special collections at The Museum of Modern Art; The Metropolitan Museum of Art; Whitney Museum of American Art; Walker Art Center; Yale University; Tate Britain; and many other institutions. 
+      </p>
+      <p>
+          He has worked internationally as an artist-in-residence, including at the American Academy in Rome (Rome, Italy, 2011), Nes (Skagaströnd, Iceland, 2013), Mildred’s Lane (Narrowsburg, NY, 2016), Dispersed Holdings (New York, USA, 2016), ArtCenter South Florida (Miami, USA, 2018), and the Internet Archive (San Francisco, CA, 2019). 
+      </p>
+      <p>
+          He is invited to speak about his work and present his ideas about radical publishing internationally. Most recently, he presented “Survival by Sharing” at the “Publishing as Worldview” conference, hosted by the Korean Society of Typography in Seoul, Republic of Korea. In 2021 he presented “What is queer typography?” at the Type Drives Communities Conference, hosted by the Type Directors Club, as well as “Urgent Publishing After the Artist’s Book: Making Public in Movements Towards Liberation,” at the Contemporary Artists’ Book Conference, hosted by the Center for Book Arts at Printed Matter’s NY Art Book Fair. In 2019 he presented “Urgentcraft” at the Eyeo Festival in Minneapolis, as well as at “The Conference” in Malmö, Sweden. In March 2018, he was a featured speaker in the Design Insights series, hosted by the Walker Art Center in Minneapolis. 
+      </p>
+      <p>
+          Soulellis also maintains a robust writing practice, and his texts circulate widely. “Bad Archives” was recently published in the <a href="https://quod.lib.umich.edu/j/jcms/" target="_blank"><em>Journal of Cinema and Media Studies</em></a>, edited by Shannon Mattern, and his “Search, Compile, Publish” essay was anthologized in <a href="https://mitpress.mit.edu/9780262544924/publishing-manifestos/" target="_blank"><em>Publishing Manifestos</em></a> in 2022, published by MIT Press. His essay “The Post as Medium” was featured in the widely-acclaimed book <a href="https://www.artbook.com/9780692173084.html" target="_blank"><em>The Art Happens Here: Net Art Anthology</em></a>, published by Rhizome/New Museum. Soulellis was a contributing editor at <a href="https://rhizome.org/" target="_blank">Rhizome</a> from 2015&ndash;2018. 
+      </p>
+      <p>
+          Soulellis is Department Head and Associate Professor of <a href="https://risd.gd/" target="_blank">Graphic Design</a> at <a href="https://www.risd.edu/" target="_blank">Rhode Island School of Design</a>.
+      </p>
+      <br>
+      <br>
+  </div>
+
+  <div class="column">
+
+
+    <button class="title">
+      Photo 1. Credit: Cindy Trinh, 2023
+    </button>
+        <img src="assets/Photo_by_Cindy_Trinh.jpg" width="100%">
+
+    <button class="title">
+      Photo 2. Credit: David Kim, 2019
+    </button>
+        <img src="assets/Paul_Soulellis_1.jpg" width="100%">
+
+    <button class="title">
+      Photo 3. Credit: Paul Soulellis, 2019
+    </button>
+        <img src="assets/Paul_Soulellis_2.jpg" width="100%">
+      <br>
+      <br>
+  </div>    
+
+
+
+<br>
+<br>
+
+<br>
+<br>
+
+<br>
+<br>
+
+</div>
+
+</div>
+
+    <div>
+      <p class="footer">
+      This is the website of Paul Soulellis, last updated on Dec 20, 2023. All content licensed under CC BY-NC-SA 4.0 
+      </p>
+    </div>
+
+    <div>
+      <p class="footer2">
+      <a href="#top">Back to top</a>        
+      </p>
+
+    </div>
+
+
+
+<script>
+  console.log('isthisthingon');
+
+  // Add active class to the current button (highlight it)
+  var header = document.getElementById("myBtnContainer");
+  var btns = header.getElementsByClassName("btn");
+  for (var i = 0; i < btns.length; i++) {
+    btns[i].addEventListener("click", function () {
+      var current = document.getElementsByClassName("active");
+      if (current.length > 0) {
+        current[0].className = current[0].className.replace(" active", "");
+      }
+      this.className += " active";
+    });
+  }
+
+
+  // for TABS
+  function openCity(evt, cityName) {
+        // Declare all variables
+        var i, tabcontent, tablinks;
+
+        // Get all elements with class="tabcontent" and hide them
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+          tabcontent[i].style.display = "none";
+        }
+
+        // Get all elements with class="tablinks" and remove the class "active"
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+          tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+
+        // Show the current tab, and add an "active" class to the button that opened the tab
+        document.getElementById(cityName).style.display = "block";
+        evt.currentTarget.className += " active";
+      }
+
+
+  // For COLLAPSIBLES
+
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.display === "block") {
+          content.style.display = "none";
+        } else {
+          content.style.display = "block";
+        }
+      });
+    }
+
+</script>
+
+
+
+
+
 </body>
 </html>
