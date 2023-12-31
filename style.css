@@ -1,7 +1,6 @@
 
 
 body {
-  /*  background-image: url('assets/test-image1.jpg');*/
     background-position: top;
     background-position-y: -200px;
     background-color: #FFA3F0;
@@ -49,6 +48,10 @@ UL {
 
 blockquote {
   font-size: 20px;
+}
+
+button {
+  font-family: inherit;
 }
 
 .column {
@@ -197,7 +200,9 @@ UL {
 blockquote {
   font-size: 16px;
 }
-
+button {
+  font-family: inherit;
+}
 .header {
   font-size: 16px;
 }
@@ -249,6 +254,9 @@ UL {
 }
 blockquote {
   font-size: 14px;
+}
+button {
+  font-family: inherit;
 }
 .header {
   font-size: 14px;
