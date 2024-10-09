@@ -270,19 +270,19 @@ button {
   font-family: inherit;
 }
 .header {
-  font-size: 14px;
+  font-size: 20px;
 }
 .title {
-  font-size: 14px;
+  font-size: 20px;
 }
 .tablinks {
-  font-size: 14px;
+  font-size: 20px;
 }
 .tablinks:hover {
-  font-size: 14px;
+  font-size: 20px;
 }
 .tablinks.active {
-  font-size: 14px;
+  font-size: 20px;
 }
 .footer {
   font-size: 10px;
