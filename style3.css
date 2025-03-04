@@ -57,6 +57,11 @@ UL {
   font-size: 30px;
 }
 
+ol {
+  font-size: 30px;
+}
+
+
 blockquote {
   font-size: 30px;
 }
@@ -67,7 +72,7 @@ button {
 
 .column {
   float: left;
-  width: 75%;
+  width: 60%;
 }
 
 .column4 {
@@ -121,6 +126,34 @@ button {
 .header {
   background-color: #000000;
   color: #FFA3F0;
+  width: auto;
+  border:none;
+  padding-top:5px;
+  padding-bottom:5px;
+  padding-left:5px;
+  padding-right:5px;
+  text-align: left;
+  outline: none;
+  font-size: 30px;
+}
+
+.header2 {
+  background-color: #000000;
+  color: #FFA3F0;
+  width: auto;
+  border:none;
+  padding-top:5px;
+  padding-bottom:5px;
+  padding-left:5px;
+  padding-right:5px;
+  text-align: left;
+  outline: none;
+  font-size: 90px;
+}
+
+.header3 {
+  background-color: #FFFFFF;
+  color: #000000;
   width: auto;
   border:none;
   padding-top:5px;
@@ -205,73 +238,9 @@ button {
 }
 
 
-@media only screen and (max-width:801px) {
-p {
-  font-size: 20px;
-}
 
-img {
-  min-width: 100%;
-}
 
-UL {
-  font-size: 20px;
-}
-blockquote {
-  font-size: 20px;
-}
-button {
-  font-family: inherit;
-}
-
-.caption {
-    font-size: 12px;
-    text-align: center;
-}
-
-.header {
-  font-size: 20px;
-}
-.title {
-  font-size: 20px;
-}
-.tablinks {
-  font-size: 20px;
-}
-.tablinks:hover {
-  font-size: 20px;
-}
-.tablinks.active {
-  font-size: 20px;
-}
-
-.footer {
-  font-size: 12px;
-}
-
-.footer a:visited {
-  font-size: 12px;
-}
-
-.footer a:link {
-  font-size: 12px;
-}
-
-.footer2 {
-  font-size: 12px;
-}
-
-.footer2 a:visited {
-  font-size: 12px;
-}
-
-.footer2 a:link {
-  font-size: 12px;
-}
-
-}  
-
-@media only screen and (max-width:1000px) {
+@media only screen and (max-width:1200px) {
 p {
   font-size: 25px;
 }
@@ -283,6 +252,11 @@ img {
 UL {
   font-size: 25px;
 }
+
+ol {
+  font-size: 25px;
+}
+
 blockquote {
   font-size: 25px;
 }
@@ -295,9 +269,20 @@ button {
     text-align: center;
 }
 
+
 .header {
   font-size: 25px;
 }
+
+.header2 {
+  font-size: 60px;
+}
+
+
+.header3 {
+  font-size: 25px;
+}
+
 .title {
   font-size: 25px;
 }
@@ -333,15 +318,13 @@ button {
 .footer2 a:link {
   font-size: 10px;
 }
-
-
-
 
 
 .column {
   float: left;
   width: 100%;
 }  
+
 
 }
 
