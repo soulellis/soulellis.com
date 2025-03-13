@@ -1,0 +1,228 @@
+/*
+    ++++++ ENTRY STYLES ++++++
+    
+    These styles are used for /entries, /recipes, /other, about.html, contact.html pages.
+*/
+
+body {
+    background-color: var(--sidewalk);
+    padding: 15px;
+}
+
+/* Back button */
+a.back {
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-color: var(--sidewalk);
+    border-radius: 10px;
+    border: 0px solid rgb(187, 187, 187);
+}
+a.back:hover {
+    border-radius: 10px;
+    background-color: #ff0000;
+}
+
+/* Entry metadata */
+#meta {
+    display: flex;
+    font-size: 14px;
+}
+#tags {
+    display: flex;
+    gap: 18px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.513);
+}
+#meta time {
+    margin-left: auto;
+    color: rgba(0, 0, 0, 0.513);
+}
+
+
+/* Article */
+article {
+    padding: 20px;
+    border-radius: 0px;
+    color: var(--cursor);
+    background-color: var(--note);
+    max-width: 900px;
+}
+article h1 {
+    font-size: 24px;
+    margin-bottom: 18px;
+}
+article h2  {
+    font-size: 18px;
+    margin-bottom: 18px;
+    font-weight: bold;
+}
+article p, article ol, article ul, article blockquote, article .table-section, article h2, article hr, article blockquote {
+    max-width: 580px;
+    margin: 18px auto;
+}
+article h2, article p, article ul, article ol {
+    margin-bottom: 18px;
+}
+article hr {
+    border: 0;
+    border-bottom: 3px dotted var(--bluetooth);
+    margin: 36px auto;
+}
+article a {
+    color: var(--pencil);
+}
+article ul {
+    list-style-type: square;
+}
+article li {
+    margin-left: 16px;
+    margin-bottom: 4px;
+    font-size: 18px;
+    line-height: 20px;
+}
+article li::marker {
+    color: var(--pencil);
+}
+article blockquote {
+    border-left: 1px solid var(--pencil);
+    padding-left: 18px;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+/* Tables */
+article .table-section {
+    overflow-x: auto;
+    padding: 0 !important;
+}
+article .table-section table {
+    width: 100%;
+    border-collapse: collapse;
+}
+article .table-section tr {
+    border: 1px solid var(--pencil);
+    border-left: 0;
+    border-right: 0;
+    vertical-align: top;
+}
+article .table-section tr, .table-section tr p {
+    font-size: 14px;
+    line-height: 18px;
+}
+article .table-section tr p:first-child {
+    margin-top: 0;
+}
+article .table-section tr p:last-child {
+    margin-bottom: 0;
+}
+article .table-section a {
+    text-decoration: none;
+    color: var(--pencil);
+}
+article .table-section a:hover {
+    text-decoration: underline;
+}
+
+/* Figure (img, iframe, video, audio) */
+article figure {
+    max-width: 1240px;
+    margin: 0 auto;
+    margin-bottom: 18px;
+}
+article figure img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+}
+article figure figcaption {
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    margin-top: 10px;
+}
+article .two-up {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 18px;
+}
+article iframe {
+    width: 100%;
+    height: 400px;
+    margin: 18px auto;
+}
+article figure.media {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.104);
+    padding: 15px;
+    margin: 18px auto;
+    border-radius: 20px;
+}
+article figure.media video {
+    max-height: 400px;
+}
+article figure.audio audio {
+    max-width: 580px;
+    margin: 18px auto;
+}
+
+/* Contact page blocks */
+section.blocks {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 20px;
+}
+section.blocks a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 210px;
+    color: var(--pencil);
+    text-decoration: none;
+    border: 2px solid var(--pencil);
+    border-radius: 20px;
+}
+
+/* About page */
+.about {
+    color: var(--pencil);
+    background-color: #fff;
+}
+.bio-image {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-end;
+    margin: 0;
+    margin-bottom: 20px;
+}
+.bio-image img {
+    border-radius: 20px;
+    transform: rotate(3deg);
+    max-width: 300px;
+}
+.bio-image figcaption {
+    text-align: left;
+    margin-left: 10px;
+    font-size: 12px;
+    line-height: 16px;
+    max-width: 200px;
+}
+.bio-image
+.left-align {
+    max-width: 100%;
+    text-align: left;
+}
+
+
+/* Mobile */
+@media(max-width: 600px) {
+    section.blocks a {
+        width: 100%;
+    }
+}

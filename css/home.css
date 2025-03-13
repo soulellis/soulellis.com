@@ -1,0 +1,449 @@
+/* ++++++ HOME PAGE STYLES ++++++ */
+
+
+/* Title and subheader styles */
+h1 {
+    color: var(--pencil);
+    font-size: 36px;
+}
+h2 {
+    color: var(--pencil);
+    font-size: 24px;
+    margin: 20px 0;
+}
+hr {
+    border: 0;
+    border-bottom: 4px solid #fff;
+    margin: 20px 0;
+}
+
+/* The status note at the top of the home page */
+
+
+#status {
+    width: 100%;
+    max-width: 700px;
+    color: #000000;
+    /* transform: rotate(4deg); */
+    border-radius: 0px;
+    padding: 0px;
+    margin-top: 20px;
+}
+#status p {
+    font-size: 24px;
+    line-height: 26px;
+    margin-bottom: 20px;
+}
+
+
+/* Notebook subsections */
+section {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    gap: 5px;
+    max-width: 1400px;
+}
+section a {
+    position: relative;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    color: var(--pencil);
+    text-decoration: none;
+    text-align: center;
+    font-size: 16px;
+    line-height: 18px;
+    max-width: 180px;
+    margin-bottom: 10px;
+}
+section a::before {
+    content: '';
+    display: block;
+    width: 180px;
+    height: 200px;
+    background-color: var(--note);
+    border-radius: 0px;
+    margin-bottom: 10px;
+    border: 4px solid;
+    border-color: #FFC3F0;
+}
+section a:hover::before {
+    border-color: #FF3300;
+}
+
+/* The little start in the corner of entry icons */
+.favorite::after {
+    content: '*';
+    font-size: 36px;
+    display: block;
+    position: absolute;
+    top: 90px;
+    right: 18px;
+    color: var(--bluetooth);
+}
+
+/* Entry icon palettes */
+.qt::before {
+    background-color: #FFFFFF;
+    background-image: url('../images/qt14.jpeg');
+    background-size: cover;
+}
+.qt:hover::before {
+    border-color: #FF0033;
+}
+.reading::before {
+    background-color: hsl(269, 100%, 85%);
+    background-image: url('../images/reading.jpg');
+    background-size: cover;
+}
+.reading:hover::before {
+    border-color: #FF0033;
+}
+.reading::after {
+    color: rgb(140, 26, 140);
+}
+.qaw::before {
+    background-image: url('../images/studio5.jpg');
+    background-size: cover;
+}
+.qaw:hover::before {
+    border-color: #FF0033;
+}
+.survival::before {
+    background-image: url('../images/survival6.jpg');
+    background-size: cover;
+}
+.survival:hover::before {
+    border-color: #FF0033;
+}
+.qq::before {
+    background-image: url('../images/quantum11.jpeg');
+    background-size: cover;
+}
+.qq:hover::before {
+    border-color: #FF0033;
+}
+.mean::before {
+    background-image: url('../images/mean3.jpg');
+    background-size: cover;
+}
+.mean:hover::before {
+    border-color: #FF0033;
+}
+.resting::before {
+    background-image: url('../images/resting1.jpg');
+    background-size: cover;
+}
+.resting:hover::before {
+    border-color: #FF0033;
+}
+.weeds::before {
+    background-image: url('../images/weeds.jpg');
+    background-size: cover;
+}
+.weeds:hover::before {
+    border-color: #FF0033;
+}
+.flagging::before {
+    background-image: url('../images/flag.webp');
+    background-size: cover;
+}
+.flagging:hover::before {
+    border-color: #FF0033;
+}
+.yt::before {
+    background-image: url('../images/yt.jpg');
+    background-size: cover;
+}
+.yt:hover::before {
+    border-color: #FF0033;
+}
+.ouro::before {
+    background-image: url('../images/ouro1.jpg');
+    background-size: cover;
+}
+.ouro:hover::before {
+    border-color: #FF0033;
+}
+.tiny::before {
+    background-image: url('../images/tiny1.jpg');
+    background-size: cover;
+}
+.tiny:hover::before {
+    border-color: #FF0033;
+}
+.wiqt::before {
+    background-image: url('../images/wiqt2.png');
+    background-size: cover;
+}
+.wiqt:hover::before {
+    border-color: #FF0033;
+}
+.matters::before {
+    background-image: url('../images/matters1.jpg');
+    background-size: cover;
+}
+.matters:hover::before {
+    border-color: #FF0033;
+}
+.take::before {
+    background-image: url('../images/takeit1.jpg');
+    background-size: cover;
+}
+.take:hover::before {
+    border-color: #FF0033;
+}
+.screen::before {
+    background-image: url('../images/screen1.jpg');
+    background-size: cover;
+}
+.screen:hover::before {
+    border-color: #FF0033;
+}
+.ur2::before {
+    background-image: url('../images/ur2-1.jpg');
+    background-size: cover;
+}
+.ur2:hover::before {
+    border-color: #FF0033;
+}
+.ur1::before {
+    background-image: url('../images/ur1-2.png');
+    background-size: cover;
+}
+.ur1:hover::before {
+    border-color: #FF0033;
+}
+.uc::before {
+    background-image: url('../images/uc1.jpg');
+    background-size: cover;
+}
+.uc:hover::before {
+    border-color: #FF0033;
+}
+.swim::before {
+    background-image: url('../images/swim1.jpg');
+    background-size: cover;
+}
+.swim:hover::before {
+    border-color: #FF0033;
+}
+.cook::before {
+    background-image: url('../images/cook1.jpg');
+    background-size: cover;
+}
+.cook:hover::before {
+    border-color: #FF0033;
+}
+.qaw3::before {
+    background-image: url('../images/qaw3-1.jpg');
+    background-size: cover;
+}
+.qaw3:hover::before {
+    border-color: #FF0033;
+}
+.qaw2::before {
+    background-image: url('../images/qaw2-1.jpg');
+    background-size: cover;
+}
+.qaw2:hover::before {
+    border-color: #FF0033;
+}
+.qaw1::before {
+    background-image: url('../images/qaw1-1.png');
+    background-size: cover;
+}
+.qaw1:hover::before {
+    border-color: #FF0033;
+}
+.steve::before {
+    background-image: url('../images/epa1.jpg');
+    background-size: cover;
+}
+.steve:hover::before {
+    border-color: #FF0033;
+}
+.thank::before {
+    background-image: url('../images/thankyou1.jpg');
+    background-size: cover;
+}
+.thank:hover::before {
+    border-color: #FF0033;
+}
+.dl::before {
+    background-image: url('../images/download1.jpg');
+    background-size: cover;
+}
+.dl:hover::before {
+    border-color: #FF0033;
+}
+.lotpw::before {
+    background-image: url('../images/lotpw1.jpg');
+    background-size: cover;
+}
+.lotpw:hover::before {
+    border-color: #FF0033;
+}
+.sal::before {
+    background-image: url('../images/sal1.jpg');
+    background-size: cover;
+}
+.sal:hover::before {
+    border-color: #FF0033;
+}
+.eva::before {
+    background-image: url('../images/eva1.jpg');
+    background-size: cover;
+}
+.eva:hover::before {
+    border-color: #FF0033;
+}
+.lar::before {
+    background-image: url('../images/larossa1.jpg');
+    background-size: cover;
+}
+.lar:hover::before {
+    border-color: #FF0033;
+}
+.abc::before {
+    background-image: url('../images/abc1.jpg');
+    background-size: cover;
+}
+.abc:hover::before {
+    border-color: #FF0033;
+}
+.port::before {
+    background-image: url('../images/port1.jpg');
+    background-size: cover;
+}
+.port:hover::before {
+    border-color: #FF0033;
+}
+.un::before {
+    background-image: url('../images/un1.jpg');
+    background-size: cover;
+}
+.un:hover::before {
+    border-color: #FF0033;
+}
+.skag::before {
+    background-image: url('../images/530-1.jpg');
+    background-size: cover;
+}
+.skag:hover::before {
+    border-color: #FF0033;
+}
+.las::before {
+    background-image: url('../images/las1.jpg');
+    background-size: cover;
+}
+.las:hover::before {
+    border-color: #FF0033;
+}
+.chance::before {
+    background-image: url('../images/chance1.jpg');
+    background-size: cover;
+}
+.chance:hover::before {
+    border-color: #FF0033;
+}
+.app::before {
+    background-image: url('../images/app1.jpg');
+    background-size: cover;
+}
+.app:hover::before {
+    border-color: #FF0033;
+}
+.strip::before {
+    background-image: url('../images/strip1.jpg');
+    background-size: cover;
+}
+.strip:hover::before {
+    border-color: #FF0033;
+}
+.wey::before {
+    background-image: url('../images/wey1.jpg');
+    background-size: cover;
+}
+.wey:hover::before {
+    border-color: #FF0033;
+}
+.stet::before {
+    background-image: url('../images/stet1.jpg');
+    background-size: cover;
+}
+.stet:hover::before {
+    border-color: #FF0033;
+}
+.jc::before {
+    background-image: url('../images/cage1.jpg');
+    background-size: cover;
+}
+.jc:hover::before {
+    border-color: #FF0033;
+}
+.rome::before {
+    background-image: url('../images/rome1.jpg');
+    background-size: cover;
+}
+.rome:hover::before {
+    border-color: #FF0033;
+}
+
+
+
+
+
+
+
+.about::before {
+    background-image: url('../images/1.jpg');
+    background-size: cover;
+}
+.about:hover::before {
+    border-color: rgb(52, 89, 52);
+}
+.contact::before {
+    background-color: #fff;
+    background-image: url('../images/9.jpg');
+    background-size: cover;
+}
+.contact:hover::before {
+    border-color: #c6c6c6;
+}
+
+
+
+.foxpoint::before {
+    background-color: #FFFFFF;
+    background-image: url('../images/11.jpg');
+    background-size: cover;
+}
+.fold::before {
+    background-color: hsl(115, 100%, 85%);
+    background-image: url('../images/7.jpg');
+    background-size: cover;
+}
+.fold:hover::before {
+    border-color: rgb(158, 192, 142);
+    background-image: url('../images/13.jpg');
+    background-size: cover;
+}
+.fold::after {
+    color: rgb(26, 140, 39);
+}
+
+
+
+/* Mobile */
+@media(max-width: 600px) {
+    section a::before {
+        width: 140px;
+        height: 150px;
+    }
+    section a {
+        max-width: 150px;
+    }
+}
