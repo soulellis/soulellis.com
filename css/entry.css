@@ -12,7 +12,7 @@ body {
 /* Back button */
 a.back {
     display: block;
-    width: 20px;
+    width: 60px;
     height: 20px;
     background-color: var(--note);
     border-radius: 10px;
