@@ -73,6 +73,7 @@ section a:hover::before {
     border-color: #FF3300;
 }
 
+
 /* The little start in the corner of entry icons */
 .favorite::after {
     content: '*';
@@ -440,10 +441,10 @@ section a:hover::before {
 /* Mobile */
 @media(max-width: 600px) {
     section a::before {
-        width: 140px;
-        height: 150px;
+        width: 180px;
+        height: 200px;
     }
     section a {
-        max-width: 150px;
+        max-width: 180px;
     }
 }
