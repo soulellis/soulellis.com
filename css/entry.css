@@ -16,11 +16,11 @@ a.back {
     height: 20px;
     background-color: var(--note);
     border-radius: 10px;
-    border: 0px solid rgb(187, 187, 187);
+    border: 0px solid rgb(0, 0, 0);
 }
 a.back:hover {
     border-radius: 10px;
-    background-color: #ff0000;
+    background-color: #000000;
 }
 
 /* Entry metadata */
@@ -191,7 +191,6 @@ section.blocks a {
 /* About page */
 .about {
     color: var(--pencil);
-    background-color: #fff;
 }
 .bio-image {
     display: flex;
