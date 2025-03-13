@@ -77,13 +77,8 @@ a {
 @media only screen and (max-width:970px) {
   body {
     background-image: url('../images/tri768.png');
+    background-position: fixed;
     background-repeat: none;
   }
 }
-/* Smallest image for phone screens */
-@media only screen and (max-width:500px) {
-  body {
-    background-repeat: none;
-    background-image: url('../images/tri375.gif');
-  }
-}
+
