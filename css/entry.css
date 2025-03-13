@@ -14,7 +14,7 @@ a.back {
     display: block;
     width: 20px;
     height: 20px;
-    background-color: var(--sidewalk);
+    background-color: var(--note);
     border-radius: 10px;
     border: 0px solid rgb(187, 187, 187);
 }
@@ -45,7 +45,6 @@ article {
     padding: 20px;
     border-radius: 0px;
     color: var(--cursor);
-    background-color: var(--note);
     max-width: 900px;
 }
 article h1 {
