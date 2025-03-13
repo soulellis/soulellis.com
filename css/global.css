@@ -62,3 +62,28 @@ a {
     line-height: 18px;
 }
 
+
+
+/* Large mobile device screens */
+@media only screen and (max-width:1366px) {
+  body {
+    background-image: url('../images/tri.gif');
+    background-repeat: none;
+    background-position: top center;
+    background-size: 100vw auto;
+  }
+}
+/* Load a smaller image for smaller screens */
+@media only screen and (max-width:970px) {
+  body {
+    background-image: url('../images/tri768.png');
+    background-repeat: none;
+  }
+}
+/* Smallest image for phone screens */
+@media only screen and (max-width:500px) {
+  body {
+    background-repeat: none;
+    background-image: url('../images/tri375.gif');
+  }
+}
