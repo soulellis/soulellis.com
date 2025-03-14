@@ -42,7 +42,7 @@ a.back:hover {
 
 /* Article */
 article {
-    padding: 20px;
+    padding: 15px;
     border-radius: 0px;
     background-color: var(--);
     color: var(--cursor);
@@ -87,8 +87,8 @@ article li::marker {
 article blockquote {
     border-left: 1px solid var(--pencil);
     padding-left: 18px;
-    font-size: 14px;
-    line-height: 18px;
+    font-size: 17px;
+    line-height: 21px;
 }
 
 /* Tables */
