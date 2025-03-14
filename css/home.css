@@ -74,21 +74,10 @@ section a:hover::before {
 }
 
 
-/* The little start in the corner of entry icons */
-.favorite::after {
-    content: '*';
-    font-size: 36px;
-    display: block;
-    position: absolute;
-    top: 90px;
-    right: 18px;
-    color: var(--bluetooth);
-}
-
 /* Entry icon palettes */
 .qt::before {
     background-color: #FFFFFF;
-    background-image: url('../images/qt14.jpeg');
+    background-image: url('../images/qt55.jpeg');
     background-size: cover;
 }
 .qt:hover::before {
@@ -127,7 +116,7 @@ section a:hover::before {
     border-color: #FF0033;
 }
 .mean::before {
-    background-image: url('../images/mean3.jpg');
+    background-image: url('../images/mean2.jpg');
     background-size: cover;
 }
 .mean:hover::before {
@@ -190,7 +179,7 @@ section a:hover::before {
     border-color: #FF0033;
 }
 .take::before {
-    background-image: url('../images/takeit1.jpg');
+    background-image: url('../images/takeit3.jpg');
     background-size: cover;
 }
 .take:hover::before {
@@ -323,7 +312,7 @@ section a:hover::before {
     border-color: #FF0033;
 }
 .un::before {
-    background-image: url('../images/un1.jpg');
+    background-image: url('../images/un8.jpg');
     background-size: cover;
 }
 .un:hover::before {
