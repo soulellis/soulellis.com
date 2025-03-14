@@ -44,8 +44,9 @@ a.back:hover {
 article {
     padding: 20px;
     border-radius: 0px;
+    background-color: var(--);
     color: var(--cursor);
-    max-width: 900px;
+    max-width: 1000px;
 }
 article h1 {
     font-size: 24px;
@@ -180,7 +181,7 @@ section.blocks a {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 200px;
+    width: 400px;
     height: 210px;
     color: var(--pencil);
     text-decoration: none;
