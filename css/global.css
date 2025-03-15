@@ -58,11 +58,113 @@ p {
     font-size: 20px;
     line-height: 24px;
 }
+
+p.banana {
+    font-size: 20px;
+    line-height: 36px;    
+    text-transform: uppercase;
+    font-family: "banana";
+}
+
+p.nudles-regular {
+    font-size: 20px;
+    line-height: 36px;    
+    font-family: "nudles-regular";
+}
+
+h2.banana {
+    font-size: 36px;
+    margin: 0px 0;
+    font-family: "banana";
+    margin-bottom: 20px;
+}
+
+h2.gay {
+    font-size: 42px;
+    margin: 0px 0;
+    font-family: "Gay";
+    margin-bottom: 20px;
+}
+
+h2.GB {
+    font-size: 42px;
+    margin: 0px 0;
+    font-family: "GB";
+    margin-bottom: 20px;
+}
+
+h2.nudles-regular {
+    font-size: 42px;
+    margin: 0px 0;
+    font-family: "Nudles-Regular";
+    margin-bottom: 20px;
+}
+
+h2.women {
+    font-size: 42px;
+    margin: 0px 0;
+    font-family: "women";
+    margin-bottom: 20px;
+}
+
+h2.crozet {
+    font-size: 128px;
+    margin: 0px 0;
+    font-family: "Crozet";
+}
+
+h2.compagnon {
+    font-size: 36px;
+    margin: 0px 0;
+    font-family: "Compagnon";
+    margin-bottom: 20px;
+}
+
 img {
     max-width: 100%;
 }
 a {
     color: var(--pencil);
+}
+
+@font-face {
+      font-family: 'banana';
+      src: url('../fonts/Banana-Outline-Regular.woff2') format('woff');
+}
+
+@font-face {
+      font-family: 'Nudles-Regular';
+      src: url('../fonts/Nudles-Regular.woff2') format('woff');
+}
+
+@font-face {
+      font-family: 'Nudles-Bold';
+      src: url('../fonts/Nudles-Bold.woff2') format('woff');
+}
+
+@font-face {
+      font-family: 'Crozet';
+      src: url('../fonts/Crozet·te-Regular.woff2') format('woff2');
+}
+
+@font-face {
+      font-family: 'Compagnon';
+      src: url('../fonts/Compagnon-bold.woff2') format('woff2');
+}
+
+@font-face {
+      font-family: 'Gay';
+      src: url('../fonts/ThirdWorldGayRevolution.woff2') format('woff2');
+}
+
+@font-face {
+      font-family: 'GB';
+      src: url('../fonts/GBJones-Lite.otf') format('opentype');
+}
+
+@font-face {
+      font-family: 'women';
+      src: url('../fonts/WomensCarRepairCollective.otf') format('opentype');
 }
 
 /* Mobile */
@@ -73,17 +175,15 @@ a {
 }
 
 .footer {
-    font-size: 14px;
-    line-height: 18px;
+    font-family: 'nudles-bold';
+    font-size: 16px;
+    line-height: 20px;
 }
 
 .header {
-    font-size: 14px;
-    line-height: 18px;
-}
-
-.nav {
-    font-size: 18px;
+    font-family: 'nudles-bold';
+    font-size: 16px;
+    line-height: 20px;
 }
 
 
