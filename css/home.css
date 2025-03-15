@@ -36,6 +36,12 @@ hr {
     margin-bottom: 20px;
 }
 
+#status p.header {
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
 #status p.banana {
     font-size: 24px;
     line-height: 28px;
