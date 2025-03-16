@@ -456,11 +456,11 @@ section a:hover::before {
     }
 
     section a::before {
-        width: 220px;
-        height: 230px;
+        width: 180px;
+        height: 200px;
     }
     section a {
-        max-width: 230px;
+        max-width: 200px;
         margin: auto;
     }
 }
