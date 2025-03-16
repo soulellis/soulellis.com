@@ -450,11 +450,17 @@ section a:hover::before {
 
 /* Mobile */
 @media(max-width: 600px) {
+
+    section {
+        margin: auto;
+    }
+
     section a::before {
-        width: 180px;
-        height: 200px;
+        width: 220px;
+        height: 230px;
     }
     section a {
-        max-width: 180px;
+        max-width: 230px;
+        margin: auto;
     }
 }
