@@ -96,12 +96,12 @@ section a:hover::before {
 
 
 /* Entry icon palettes */
-.qt::before {
+.sbs::before {
     background-color: #FFFFFF;
-    background-image: url('../images/qt55.jpeg');
+    background-image: url('../images/sbs3.png');
     background-size: cover;
 }
-.qt:hover::before {
+.sbs:hover::before {
     border-color: #FF0033;
 }
 .reading::before {
