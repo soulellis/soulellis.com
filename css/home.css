@@ -114,7 +114,7 @@ section a:hover::before {
 /* Entry icon palettes */
 .sbs::before {
     background-color: #FFFFFF;
-    background-image: url('../images/sbs3.png');
+    background-image: url('../images/sbs6.png');
     background-size: cover;
 }
 .sbs:hover::before {
